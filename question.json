@@ -1,0 +1,552 @@
+[
+      {
+        "q": "Melyik HTML elem jelöli egy oldal logikai fő tartalmát?",
+        "a": [
+          "a) &lt;section&gt;",
+          "b) &lt;main&gt;",
+          "c) &lt;body&gt;",
+          "d) &lt;article&gt;"
+        ],
+        "correct": "b",
+        "index": 1
+      },
+      {
+        "q": "Melyik HTML tagot használjuk leginkább navigációs linkcsoporthoz?",
+        "a": [
+          "a) &lt;nav&gt;",
+          "b) &lt;aside&gt;",
+          "c) &lt;menu&gt;",
+          "d) &lt;header&gt;"
+        ],
+        "correct": "a",
+        "index": 2
+      },
+      {
+        "q": "Melyik HTML attribútum NEM érvényes az <img> elemre?",
+        "a": [
+          "a) src",
+          "b) alt",
+          "c) href",
+          "d) width"
+        ],
+        "correct": "c",
+        "index": 3
+      },
+      {
+        "q": "Mit jelent, ha egy HTML elem „block” szintű?",
+        "a": [
+          "a) Csak inline elemeket tartalmazhat",
+          "b) Mindig új sorban kezdődik és teljes sort foglalhat",
+          "c) Nem kaphat szélességet",
+          "d) Csak szöveget tartalmazhat"
+        ],
+        "correct": "b",
+        "index": 4
+      },
+      {
+        "q": "Melyik meta tag felelős a mobil nézet skálázásáért?",
+        "a": [
+          "a) &lt;meta charset=\"UTF-8\"&gt;",
+          "b) &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;",
+          "c) &lt;meta name=\"mobile\" content=\"true\"&gt;",
+          "d) &lt;meta name=\"scale\" content=\"device\"&gt;"
+        ],
+        "correct": "b",
+        "index": 5
+      },
+      {
+        "q": "Mire használjuk a &lt;picture&gt; elemet?",
+        "a": [
+          "a) Audio lejátszásra",
+          "b) Reszponzív képek különböző forrásainak megadására",
+          "c) Videó beágyazására",
+          "d) SVG grafika készítésére"
+        ],
+        "correct": "b",
+        "index": 6
+      },
+      {
+        "q": "Melyik HTML attribútum jelzi, hogy egy űrlapmező csak olvasható?",
+        "a": [
+          "a) disabled",
+          "b) readonly",
+          "c) required",
+          "d) novalidate"
+        ],
+        "correct": "b",
+        "index": 7
+      },
+      {
+        "q": "Melyik HTML elem a megfelelő egy oldal oldal‑sáv (sidebar) jelölésére?",
+        "a": [
+          "a) &lt;aside&gt;",
+          "b) &lt;footer&gt;",
+          "c) &lt;nav&gt;",
+          "d) &lt;section&gt;"
+        ],
+        "correct": "a",
+        "index": 8
+      },
+      {
+        "q": "Milyen típusú elem a &lt;span&gt; alapértelmezetten?",
+        "a": [
+          "a) block",
+          "b) inline",
+          "c) inline-block",
+          "d) flex"
+        ],
+        "correct": "b",
+        "index": 9
+      },
+      {
+        "q": "Melyik HTML tagot használjuk JS kód beágyazására a dokumentumba?",
+        "a": [
+          "a) &lt;code&gt;",
+          "b) &lt;script&gt;",
+          "c) &lt;js&gt;",
+          "d) &lt;run&gt;"
+        ],
+        "correct": "b",
+        "index": 10
+      },
+      {
+        "q": "Melyik CSS tulajdonság állítja be a háttérszínt?",
+        "a": [
+          "a) background-color",
+          "b) color",
+          "c) bg",
+          "d) back-color"
+        ],
+        "correct": "a",
+        "index": 11
+      },
+      {
+        "q": "Mit jelent a CSS cascade (kaszkád) fogalma?",
+        "a": [
+          "a) A szabályok sorrendje, specifikussága és forrása alapján dől el, melyik stílus érvényesül",
+          "b) A CSS animációk láncolása",
+          "c) A CSS fájlok egymás utáni betöltése",
+          "d) A DOM fa felépítése"
+        ],
+        "correct": "a",
+        "index": 12
+      },
+      {
+        "q": "Mi a default value a position tulajdonságra a legtöbb elemnél?",
+        "a": [
+          "a) relative",
+          "b) absolute",
+          "c) fixed",
+          "d) static"
+        ],
+        "correct": "d",
+        "index": 13
+      },
+      {
+        "q": "Melyik CSS tulajdonság teszi flex konténerré az elemet?",
+        "a": [
+          "a) display: inline-flex;",
+          "b) display: block;",
+          "c) display: flex;",
+          "d) flex-container: true;"
+        ],
+        "correct": "c",
+        "index": 14
+      },
+      {
+        "q": "Mi a grid layout egyik fő előnye a float-alapú layout-tal szemben?",
+        "a": [
+          "a) Csak inline elemekkel működik",
+          "b) Két dimenziós (sor és oszlop) layoutot kezel natívan",
+          "c) Nem támogatja a reszponzivitást",
+          "d) Csak táblázatokra használható"
+        ],
+        "correct": "b",
+        "index": 15
+      },
+      {
+        "q": "Melyik Bootstrap class jelöli a 100% szélességű, paddingelt fő konténert?",
+        "a": [
+          "a) .container",
+          "b) .container-fluid",
+          "c) .row",
+          "d) .col-12"
+        ],
+        "correct": "b",
+        "index": 16
+      },
+      {
+        "q": "Mit csinál egy SCSS @mixin?",
+        "a": [
+          "a) Változókat definiál",
+          "b) Új CSS selektort hoz létre",
+          "c) Újrafelhasználható stílusblokkot definiál, paraméterekkel is",
+          "d) CSS-t tömörít"
+        ],
+        "correct": "c",
+        "index": 17
+      },
+      {
+        "q": "Mit jelent az inherit érték CSS-ben (pl. color: inherit;)?",
+        "a": [
+          "a) Az elem elrejti a szülő stílusát",
+          "b) Az elem a szülő ugyanazon tulajdonságának értékét örökli",
+          "c) Visszaáll alapértelmezett értékre",
+          "d) Random értéket vesz fel"
+        ],
+        "correct": "b",
+        "index": 18
+      },
+      {
+        "q": "Melyik CSS tulajdonság szabályozza, hogyan tördelődjön a szöveg, ha nem fér ki a dobozban?",
+        "a": [
+          "a) word-wrap / overflow-wrap",
+          "b) text-style",
+          "c) text-shadow",
+          "d) text-align"
+        ],
+        "correct": "a",
+        "index": 19
+      },
+      {
+        "q": "Mit eredményez a display: none; egy elemen?",
+        "a": [
+          "a) Látható, de átlátszó",
+          "b) Nem jelenik meg és nem foglal helyet a layoutban",
+          "c) Láthatatlan, de helyet foglal",
+          "d) Csak mobilon tűnik el"
+        ],
+        "correct": "b",
+        "index": 20
+      },
+      {
+        "q": "Mit ad vissza: typeof undefined?",
+        "a": [
+          "a) \"null\"",
+          "b) \"undefined\"",
+          "c) \"object\"",
+          "d) \"void\""
+        ],
+        "correct": "b",
+        "index": 21
+      },
+      {
+        "q": "Mit ad vissza: [1,2,3].length?",
+        "a": [
+          "a) 2",
+          "b) 3",
+          "c) \"3\"",
+          "d) undefined"
+        ],
+        "correct": "b",
+        "index": 22
+      },
+      {
+        "q": "Mit csinál a strict mode (\"use strict\") JavaScriptben?",
+        "a": [
+          "a) Lassítja a kódot",
+          "b) Szigorúbb hibadetektálást ad, bizonyos rossz gyakorlatokat megtilt",
+          "c) Lehetővé teszi a goto-t",
+          "d) Megszünteti a típuskonverziót"
+        ],
+        "correct": "b",
+        "index": 23
+      },
+      {
+        "q": "Mit ad vissza: [1,2,3].map(n => n * 2)?",
+        "a": [
+          "a) [2,4,6]",
+          "b) [1,2,3,1,2,3]",
+          "c) [1,4,9]",
+          "d) 12"
+        ],
+        "correct": "a",
+        "index": 24
+      },
+      {
+        "q": "Mit ad vissza: \"hello\".toUpperCase()?",
+        "a": [
+          "a) \"Hello\"",
+          "b) \"HELLO\"",
+          "c) \"hello\"",
+          "d) undefined"
+        ],
+        "correct": "b",
+        "index": 25
+      },
+      {
+        "q": "Mi jellemző a const változóra?",
+        "a": [
+          "a) Nem kaphat kezdőértéket",
+          "b) A binding nem írható felül, de az objektum/tömb tartalma módosítható lehet",
+          "c) Globálissá teszi a változót",
+          "d) Gyorsabb mint a let vagy var"
+        ],
+        "correct": "b",
+        "index": 26
+      },
+      {
+        "q": "Mit ad vissza: Number(\"abc\")?",
+        "a": [
+          "a) 0",
+          "b) NaN",
+          "c) \"abc\"",
+          "d) Error"
+        ],
+        "correct": "b",
+        "index": 27
+      },
+      {
+        "q": "Mit jelent az, hogy a JS függvény „first-class citizen”?",
+        "a": [
+          "a) Csak egyszer lehet meghívni",
+          "b) Változóba tehető, paraméterként átadható, visszatérési érték lehet",
+          "c) Csak globális lehet",
+          "d) Nem adhat vissza értéket"
+        ],
+        "correct": "b",
+        "index": 28
+      },
+      {
+        "q": "Mit csinál a setTimeout(fn, 0)?",
+        "a": [
+          "a) Azonnal lefuttatja fn-t, még a jelenlegi szinkron kód előtt",
+          "b) A call stack kiürülése után ütemezi fn futását",
+          "c) Nem hívja meg soha fn-t",
+          "d) Szigorú módot kapcsol"
+        ],
+        "correct": "b",
+        "index": 29
+      },
+      {
+        "q": "Mit ad vissza egy async függvény alapértelmezésben, ha return nélkül lefut?",
+        "a": [
+          "a) undefined",
+          "b) Promise&lt;void&gt;",
+          "c) 0",
+          "d) Error"
+        ],
+        "correct": "b",
+        "index": 30
+      },
+      {
+        "q": "Mi a moduláris kód fő előnye?",
+        "a": [
+          "a) Nehezebb tesztelni",
+          "b) Könnyebb karbantartani, újrahasznosítani és tesztelni",
+          "c) Rosszabb teljesítmény",
+          "d) Bonyolultabb buildet igényel mindig"
+        ],
+        "correct": "b",
+        "index": 31
+      },
+      {
+        "q": "Mit jelent az encapuslation (enkapszuláció) OOP-ban?",
+        "a": [
+          "a) Minden mező publikus",
+          "b) Az adatok és a hozzájuk tartozó műveletek összecsomagolása, hozzáférés korlátozása",
+          "c) Csak globális függvények használata",
+          "d) Csak statikus metódusok vannak"
+        ],
+        "correct": "b",
+        "index": 32
+      },
+      {
+        "q": "Miért kerülendő a túlzottan hosszú függvény (pl. 200+ sor)?",
+        "a": [
+          "a) Gyorsabb, mert kevesebb függvényhívás",
+          "b) Nehezebben érthető, tesztelhető, nagyobb hibalehetőséggel jár",
+          "c) Nem fordul le",
+          "d) A JS nem támogatja"
+        ],
+        "correct": "b",
+        "index": 33
+      },
+      {
+        "q": "Mit jelent a YAGNI elv (You Aren't Gonna Need It)?",
+        "a": [
+          "a) Minden lehetséges feature-t előre implementáljunk",
+          "b) Csak azt fejlesszük le, amire tényleges, közeli igény van",
+          "c) Soha ne írjunk kommentet",
+          "d) Ne használjunk verziókövetőt"
+        ],
+        "correct": "b",
+        "index": 34
+      },
+      {
+        "q": "Melyik NEM clean code gyakorlat?",
+        "a": [
+          "a) Beszédes függvénynevek",
+          "b) Egy függvény egy felelősség",
+          "c) Kódduplikáció csökkentése",
+          "d) Minden változó neve: tmp"
+        ],
+        "correct": "d",
+        "index": 35
+      },
+      {
+        "q": "Angularban milyen nyelven írjuk általában a komponensek logikáját?",
+        "a": [
+          "a) Java",
+          "b) TypeScript",
+          "c) C#",
+          "d) PHP"
+        ],
+        "correct": "b",
+        "index": 36
+      },
+      {
+        "q": "Mit csinál a *ngIf direktíva?",
+        "a": [
+          "a) Stílust ad az elemnek",
+          "b) Feltételesen megjeleníti vagy eltávolítja az elemet a DOM-ból",
+          "c) Ciklust hoz létre",
+          "d) Eseményeket kezel"
+        ],
+        "correct": "b",
+        "index": 37
+      },
+      {
+        "q": "Melyik szintaxis használható egyirányú property bindingre Angular template-ben?",
+        "a": [
+          "a) {{ value }}",
+          "b) [value]=\"expression\"",
+          "c) (value)=\"expression\"",
+          "d) [(value)]=\"expression\""
+        ],
+        "correct": "b",
+        "index": 38
+      },
+      {
+        "q": "Mire szolgál az Angular Router?",
+        "a": [
+          "a) CSS kezelésre",
+          "b) HTTP kérésekre",
+          "c) Kliens oldali útvonalkezelésre (SPA navigáció)",
+          "d) Node.js szerver indítására"
+        ],
+        "correct": "c",
+        "index": 39
+      },
+      {
+        "q": "Mi a különbség a template-driven és a reactive formok között Angularban?",
+        "a": [
+          "a) Template-driven formok HTML-ből vezéreltek, reactive formok TypeScript-ből definiáltak",
+          "b) Reactive form csak mobilon működik",
+          "c) Template-driven form nem validálható",
+          "d) Nincs különbség"
+        ],
+        "correct": "a",
+        "index": 40
+      },
+      {
+        "q": "Mit jelent az, hogy egy Angular service singleton root szinten?",
+        "a": [
+          "a) Minden modul külön példányt kap",
+          "b) Az egész alkalmazásban egyetlen példány létezik belőle",
+          "c) Csak lazán példányosítható",
+          "d) Nem injectálható"
+        ],
+        "correct": "b",
+        "index": 41
+      },
+      {
+        "q": "Mit ad vissza tipikusan a HttpClient.get() hívás Angularban?",
+        "a": [
+          "a) Promise",
+          "b) Observable",
+          "c) EventEmitter",
+          "d) Array"
+        ],
+        "correct": "b",
+        "index": 42
+      },
+      {
+        "q": "Mire való a ngOnDestroy lifecycle hook?",
+        "a": [
+          "a) Komponens inicializálására",
+          "b) Service regisztrálására",
+          "c) Erőforrások felszabadítására, subscriptionök leiratkozására a komponens megsemmisítésekor",
+          "d) Routingra"
+        ],
+        "correct": "c",
+        "index": 43
+      },
+      {
+        "q": "Melyik Firebase szolgáltatással tárolsz fájlokat (képek, dokumentumok)?",
+        "a": [
+          "a) Firestore",
+          "b) Realtime Database",
+          "c) Cloud Storage",
+          "d) Hosting"
+        ],
+        "correct": "c",
+        "index": 44
+      },
+      {
+        "q": "Melyik Firebase komponens felel a felhasználók beléptetéséért?",
+        "a": [
+          "a) Authentication",
+          "b) Functions",
+          "c) Analytics",
+          "d) Remote Config"
+        ],
+        "correct": "a",
+        "index": 45
+      },
+      {
+        "q": "Melyik HTTP státuszkód jelenti, hogy a kliens jogosulatlan (autentikáció szükséges)?",
+        "a": [
+          "a) 200",
+          "b) 301",
+          "c) 401",
+          "d) 500"
+        ],
+        "correct": "c",
+        "index": 46
+      },
+      {
+        "q": "Mit jelent a 403 HTTP státuszkód?",
+        "a": [
+          "a) Forbidden – a kliens autentikált, de nincs jogosultsága",
+          "b) Unauthorized – nincs autentikáció",
+          "c) Not Found – nem található",
+          "d) Bad Request – hibás kérés"
+        ],
+        "correct": "a",
+        "index": 47
+      },
+      {
+        "q": "Mi a HTTPS fő előnye a sima HTTP-vel szemben?",
+        "a": [
+          "a) Mindig gyorsabb",
+          "b) Titkosítja a forgalmat és ellenőrizhető a szerver hitelessége",
+          "c) Nem használ TCP-t",
+          "d) Csak mobilon elérhető"
+        ],
+        "correct": "b",
+        "index": 48
+      },
+      {
+        "q": "Mit tárol a sessionStorage a böngészőben?",
+        "a": [
+          "a) Tartós, több böngészőfül között is megosztott adatokat",
+          "b) Csak a szerveren tárol adatot",
+          "c) Adatokat az adott tab session idejére, tab bezárásáig",
+          "d) Cookie-kat helyettesíti teljesen"
+        ],
+        "correct": "c",
+        "index": 49
+      },
+      {
+        "q": "Melyik technika javítja leginkább a weboldal elérhetőségét (accessibility)?",
+        "a": [
+          "a) Csak színekkel jelezni a hibákat",
+          "b) Semantic HTML használata, megfelelő kontraszt, ARIA attribútumok",
+          "c) Minden szöveget képre írni",
+          "d) Minél több animáció"
+        ],
+        "correct": "b",
+        "index": 50
+      }
+    ]
