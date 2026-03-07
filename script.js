@@ -4,10 +4,10 @@ let questionPool = [];
 
  async function loadQuestions() {
       try {
-        const response = await fetch("question.json");
-        const questionFromServer = await response.json();
+        const response = await fetch("questionpool.json");
+        const questionsFromServer = await response.json();
 
-        questionPool = questionFromServer;
+        questionPool = questionsFromServer;
 
         console.log("Kérdések betöltve:", questionPool);
       } catch (error) {
