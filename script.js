@@ -121,7 +121,7 @@ let questionPool = [];
     function shuffleQuestions() {
       // Kevert sorrendű kérdéssor; ha később nagyobb poolod lesz,
       // itt elég a shuffleArray(questionPool).slice(0, 50)-et használni.
-      questions = shuffleArray(questionPool).slice(0, 50);
+      questions = shuffleArray(questionPool).slice(0, 40);
       document.getElementById("result").style.display = "none";
       renderQuiz();
     }

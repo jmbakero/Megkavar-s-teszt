@@ -1648,5 +1648,1105 @@
       ],
       "correct": "b",
       "index": 150
-    }
-    ]
+    },
+    {
+        "q": "Mit jelöl a &lt;main&gt; elem HTML5-ben?",
+        "a": [
+          "a) Az oldal teljes tartalmát, beleértve a fejlécet és láblécet is",
+          "b) Az oldal egyedi, központi tartalmát, ami nem ismétlődő navigáció vagy footer",
+          "c) Csak a navigációt",
+          "d) Csak a cikkeket"
+        ],
+        "correct": "b",
+        "index": 151
+      },
+      {
+        "q": "Melyik attribútum köti össze a &lt;label&gt;-t egy &lt;input&gt;-tal?",
+        "a": [
+          "a) id",
+          "b) name",
+          "c) for",
+          "d) label"
+        ],
+        "correct": "c",
+        "index": 152
+      },
+      {
+        "q": "Mit jelent a mobile-first megközelítés CSS-ben?",
+        "a": [
+          "a) Először desktop nézethez írunk stílusokat, majd visszaskálázzuk",
+          "b) Először mobil nézethez írunk stílusokat, majd min-width media query-kkel bővítjük",
+          "c) Csak mobil nézetet támogatunk",
+          "d) Csak max-width media query-ket használunk"
+        ],
+        "correct": "b",
+        "index": 153
+      },
+      {
+        "q": "Melyik Bootstrap osztály jelöli a teljes szélességű, fluid konténert?",
+        "a": [
+          "a) .container",
+          "b) .container-fluid",
+          "c) .row-fluid",
+          "d) .full-container"
+        ],
+        "correct": "b",
+        "index": 154
+      },
+      {
+        "q": "Mit ad vissza: typeof null?",
+        "a": [
+          "a) \"null\"",
+          "b) \"undefined\"",
+          "c) \"object\"",
+          "d) \"number\""
+        ],
+        "correct": "c",
+        "index": 155
+      },
+      {
+        "q": "Melyik metódus ad vissza ÚJ tömböt a feltételnek megfelelő elemekkel?",
+        "a": [
+          "a) forEach",
+          "b) filter",
+          "c) push",
+          "d) reduce"
+        ],
+        "correct": "b",
+        "index": 156
+      },
+      {
+        "q": "Mit jelent az SRP (Single Responsibility Principle)?",
+        "a": [
+          "a) Egy modul/funkció egyféle felelősséget lásson el",
+          "b) Egy modul mindent tudjon",
+          "c) Egy fájlban csak egy sor kód lehet",
+          "d) Csak szingli fejlesztők írhatnak kódot"
+        ],
+        "correct": "a",
+        "index": 157
+      },
+      {
+        "q": "Melyik modulra van szükség, ha ngModel-t akarsz használni egy template-ben?",
+        "a": [
+          "a) BrowserModule",
+          "b) FormsModule",
+          "c) HttpClientModule",
+          "d) RouterModule"
+        ],
+        "correct": "b",
+        "index": 158
+      },
+      {
+        "q": "Melyik Firebase szolgáltatás NoSQL dokumentum-orientált adatbázis?",
+        "a": [
+          "a) Realtime Database",
+          "b) Firestore",
+          "c) Cloud Storage",
+          "d) Hosting"
+        ],
+        "correct": "b",
+        "index": 159
+      },
+      {
+        "q": "Melyik HTTP metódust használjuk tipikusan új erőforrás létrehozására REST API-ban?",
+        "a": [
+          "a) GET",
+          "b) POST",
+          "c) PUT",
+          "d) DELETE"
+        ],
+        "correct": "b",
+        "index": 160
+      },
+  {
+    "q": "Mit jelent, hogy a let block scope-al rendelkezik?",
+    "a": [
+      "a) A let változók az egész fájlban láthatók",
+      "b) A let változók csak a legbelső { } blokkban érvényesek, ahol definiálták",
+      "c) A let változók csak függvény szinten láthatók",
+      "d) A let változók globálisak"
+    ],
+    "correct": "b",
+    "index": 161
+  },
+  {
+    "q": "Melyik állítás igaz a hoistingre var esetén?",
+    "a": [
+      "a) Csak a var értéke kerül a scope tetejére",
+      "b) A var deklarációja kerül a scope tetejére, de az értékadás nem",
+      "c) A var nem hoistolódik",
+      "d) Csak strict mode-ban hoistolódik"
+    ],
+    "correct": "b",
+    "index": 162
+  },
+  {
+    "q": "Mit jelent a closure JS-ben?",
+    "a": [
+      "a) Egy lezárt függvény, amit nem lehet meghívni",
+      "b) Egy függvény, amely megőrzi a külső lexicalis scope-hoz való hozzáférését a létrehozása után is",
+      "c) Egy függvény, ami nem használ paramétert",
+      "d) Egy függvény, amely csak szinkron kódot tartalmaz"
+    ],
+    "correct": "b",
+    "index": 163
+  },
+  {
+    "q": "Hogyan viselkedik a this egy arrow function-ben?",
+    "a": [
+      "a) Mindig a globális objektumra mutat",
+      "b) Dinamikusan dől el a hívás helye alapján",
+      "c) Lexikálisan örökli a this-t a környező scope-ból",
+      "d) Mindig undefined"
+    ],
+    "correct": "c",
+    "index": 164
+  },
+  {
+    "q": "Mit ad vissza: 0 == \"\" és 0 === \"\"?",
+    "a": [
+      "a) true és true",
+      "b) false és true",
+      "c) true és false",
+      "d) false és false"
+    ],
+    "correct": "c",
+    "index": 165
+  },
+  {
+    "q": "Melyik metódus NEM módosítja az eredeti tömböt?",
+    "a": [
+      "a) sort",
+      "b) splice",
+      "c) map",
+      "d) reverse"
+    ],
+    "correct": "c",
+    "index": 166
+  },
+  {
+    "q": "Mi a reduce fő szerepe egy tömbön?",
+    "a": [
+      "a) Elemről elemre járva egyetlen összértékre redukálja a tömböt",
+      "b) Szűrést végez",
+      "c) Minden elemre side effectet futtat",
+      "d) Tömb hosszát adja"
+    ],
+    "correct": "a",
+    "index": 167
+  },
+  {
+    "q": "Mit csinál a ... (spread) operátor tömbnél?",
+    "a": [
+      "a) Új sort tör be",
+      "b) Két tömböt oszt el egymás között",
+      "c) Kiteríti a tömb elemeit külön értékekké",
+      "d) JSON-t parszol"
+    ],
+    "correct": "c",
+    "index": 168
+  },
+  {
+    "q": "Mit jelent a rest paraméter ( ...args ) egy függvény paraméterlistájában?",
+    "a": [
+      "a) A függvényhez nem lehet több paramétert adni",
+      "b) A maradék paramétereket egy tömbbe gyűjti",
+      "c) A függvény alvó állapotba kerül",
+      "d) Csak aszinkron függvényeknél használható"
+    ],
+    "correct": "b",
+    "index": 169
+  },
+  {
+    "q": "Mit jelent az objektum property shorthand szintaxis?",
+    "a": [
+      "a) { name: name } helyett elég { name } ha a változó neve és a property neve azonos",
+      "b) Rövidebb JSON formátum",
+      "c) Nem kell vesszőket írni",
+      "d) Mindig stringgé alakítja a kulcsokat"
+    ],
+    "correct": "a",
+    "index": 170
+  },
+  {
+    "q": "Mit csinál az alábbi kód?\nconst { x, y } = { x: 1, y: 2, z: 3 };",
+    "a": [
+      "a) Létrehoz egy objektumot x és y property-vel",
+      "b) x=1 és y=2 lokális változókat hoz létre",
+      "c) Törli a z property-t",
+      "d) Hibát dob"
+    ],
+    "correct": "b",
+    "index": 171
+  },
+  {
+    "q": "Mi a default paraméterek előnye (function foo(a = 5) { ... })?",
+    "a": [
+      "a) Kötelező paramétert csinál a változóból",
+      "b) Ha nincs átadott érték vagy undefined, automatikusan a megadott alapértéket használja",
+      "c) Megakadályozza a hoistinget",
+      "d) Gyorsítja a futást"
+    ],
+    "correct": "b",
+    "index": 172
+  },
+  {
+    "q": "Mit jelent egy Promise resolve állapota?",
+    "a": [
+      "a) A Promise még fut (pending)",
+      "b) A Promise sikeresen teljesült egy értékkel",
+      "c) A Promise elutasításra került hibával",
+      "d) A Promise törlődött"
+    ],
+    "correct": "b",
+    "index": 173
+  },
+  {
+    "q": "Mit csinál az await kulcsszó egy async függvényben?",
+    "a": [
+      "a) Megszakítja a program futását",
+      "b) Megvárja, míg egy Promise teljesül vagy elutasításra kerül, és a teljesült értékkel dolgozik tovább",
+      "c) Új Promise-t hoz létre",
+      "d) Szigorú módot kapcsol"
+    ],
+    "correct": "b",
+    "index": 174
+  },
+  {
+    "q": "Mi a JS event loop fő feladata?",
+    "a": [
+      "a) A DOM fa felépítése",
+      "b) A call stack és a callback queue közti ütemezés, aszinkron feladatok kezelése",
+      "c) A CSS feldolgozása",
+      "d) A böngésző bezárása"
+    ],
+    "correct": "b",
+    "index": 175
+  },
+  {
+    "q": "Melyik kerül előbb futtatásra általában a böngészőben?",
+    "a": [
+      "a) setTimeout callback (macrotask)",
+      "b) Promise.then callback (microtask)",
+      "c) requestAnimationFrame",
+      "d) DOMContentLoaded handler"
+    ],
+    "correct": "b",
+    "index": 176
+  },
+  {
+    "q": "Melyik állítás igaz a JSON-ra?",
+    "a": [
+      "a) Támogat függvényeket is",
+      "b) Kulcsoknak stringnek kell lenniük, idézőjelben",
+      "c) Ciklusokra hivatkozhat önmagában",
+      "d) Bármilyen JS kódot tartalmazhat"
+    ],
+    "correct": "b",
+    "index": 177
+  },
+  {
+    "q": "Mit csinál a document.querySelectorAll('.item')?",
+    "a": [
+      "a) Egyetlen elemet ad vissza",
+      "b) Egy NodeList-et ad vissza az összes .item osztályú elemről",
+      "c) HTMLCollection-t ad vissza csak div-ekről",
+      "d) Mindig tömböt ad vissza"
+    ],
+    "correct": "b",
+    "index": 178
+  },
+  {
+    "q": "Miért jobb sokszor addEventListener-t használni, mint onclick attribútumot?",
+    "a": [
+      "a) Több handler is regisztrálható, separation of concerns, nincs inline JS a HTML-ben",
+      "b) Gyorsabb mindig",
+      "c) Csak így működik a DOM",
+      "d) onclick nem támogatott modern böngészőkben"
+    ],
+    "correct": "a",
+    "index": 179
+  },
+  {
+    "q": "Mit csinál a try...catch szerkezet?",
+    "a": [
+      "a) Megállítja a kód futását a try blokk után",
+      "b) Ha a try blokkban hiba történik, a catch blokkban kezelhetjük azt",
+      "c) Csak szintaxis hibákat kezel",
+      "d) Csak aszinkron hibákat kezel"
+    ],
+    "correct": "b",
+    "index": 180
+  },
+  {
+    "q": "Mi a @Component dekorátor fő szerepe Angularban?",
+    "a": [
+      "a) Service metaadatainak definiálása",
+      "b) Modul regisztrálása",
+      "c) Egy komponens metaadatainak (selector, template, style) definiálása",
+      "d) Router konfigurálása"
+    ],
+    "correct": "c",
+    "index": 181
+  },
+  {
+    "q": "Mit jelent a selector mező a @Component-ben?",
+    "a": [
+      "a) A CSS szelektor, amihez stílust rendel",
+      "b) A HTML elem neve, amivel a komponenst a template-ben használjuk",
+      "c) A root modul neve",
+      "d) A route path neve"
+    ],
+    "correct": "b",
+    "index": 182
+  },
+  {
+    "q": "Mikor fut le az ngOnInit() egy Angular komponensben?",
+    "a": [
+      "a) Minden change detection ciklusban",
+      "b) Közvetlenül a konstruktor után, egyszer, a komponens inicializálásakor",
+      "c) A komponens elpusztításakor",
+      "d) Csak routing váltáskor"
+    ],
+    "correct": "b",
+    "index": 183
+  },
+  {
+    "q": "Mire való az @Input() dekorátor egy komponensben?",
+    "a": [
+      "a) Külső modulok importálására",
+      "b) Szülő komponensből érkező adat fogadására property-bindingon keresztül",
+      "c) HTTP kérések küldésére",
+      "d) Service-ek injektálására"
+    ],
+    "correct": "b",
+    "index": 184
+  },
+  {
+    "q": "Mire való az @Output() + EventEmitter egy komponensben?",
+    "a": [
+      "a) Szülőből gyermekbe adatok átvitelére",
+      "b) Gyermek komponensből szülő felé események továbbítására",
+      "c) HTTP események kezelésére",
+      "d) Router események figyelésére"
+    ],
+    "correct": "b",
+    "index": 185
+  },
+  {
+    "q": "Mit jelent a dependency injection Angularban?",
+    "a": [
+      "a) A komponens saját maga hozza létre a service-eket new kulcsszóval",
+      "b) A keretrendszer példányosítja a függőségeket és a konstruktor paramétereibe injektálja",
+      "c) Minden service globális változó",
+      "d) Nem használ service-eket"
+    ],
+    "correct": "b",
+    "index": 186
+  },
+  {
+    "q": "Mit jelent az @Injectable({ providedIn: 'root' }) egy service-en?",
+    "a": [
+      "a) Nem használható több modulban",
+      "b) Root szintű singleton, az egész alkalmazásban egy példány lesz belőle",
+      "c) Minden komponens külön példányt kap",
+      "d) Csak lazy-loaded modulokban működik"
+    ],
+    "correct": "b",
+    "index": 187
+  },
+  {
+    "q": "Mire való a [routerLink] a template-ben?",
+    "a": [
+      "a) Külső URL megnyitására",
+      "b) Angular Router kliens oldali navigációra az útvonal konfiguráció alapján",
+      "c) HTTP GET kérés indítására",
+      "d) CSS class váltására"
+    ],
+    "correct": "b",
+    "index": 188
+  },
+  {
+    "q": "Mi a CanActivate guard feladata Angularban?",
+    "a": [
+      "a) Megakadályozza a module betöltését",
+      "b) Eldönti, hogy egy route aktiválható-e (pl. be van-e jelentkezve a felhasználó)",
+      "c) HTTP hívások guardolása",
+      "d) Komponens elpusztításának megakadályozása"
+    ],
+    "correct": "b",
+    "index": 189
+  },
+  {
+    "q": "Mi jellemzi a reactive formokat Angularban?",
+    "a": [
+      "a) Teljesen HTML vezérelt, kevés TypeScript kóddal",
+      "b) A form struktúráját és validációit TypeScript-ben definiáljuk FormControl, FormGroup segítségével",
+      "c) Nem validálhatók",
+      "d) Csak template-ben léteznek"
+    ],
+    "correct": "b",
+    "index": 190
+  },
+  {
+    "q": "Melyik import szükséges a HttpClient használatához Angularban?",
+    "a": [
+      "a) BrowserModule",
+      "b) HttpClientModule",
+      "c) FormsModule",
+      "d) RouterModule"
+    ],
+    "correct": "b",
+    "index": 191
+  },
+  {
+    "q": "Mit ad vissza a this.http.get&lt;YourType&gt;(url) hívás?",
+    "a": [
+      "a) Promise&lt;YourType&gt;",
+      "b) Observable&lt;YourType&gt;",
+      "c) YourType szinkron módon",
+      "d) EventEmitter&lt;YourType&gt;"
+    ],
+    "correct": "b",
+    "index": 192
+  },
+  {
+    "q": "Mit csinál az observable$.pipe(map(...), catchError(...)) minta?",
+    "a": [
+      "a) Sorrendben alkalmaz több operátort az Observable által kibocsátott értékekre",
+      "b) HTTP csatornát nyit",
+      "c) DOM elemeket módosít",
+      "d) CSS-t generál"
+    ],
+    "correct": "a",
+    "index": 193
+  },
+  {
+    "q": "Mi a take(1) operátor tipikus használata HTTP hívásnál?",
+    "a": [
+      "a) Ismétli a kérést 1-szer",
+      "b) Az első kibocsátott érték után automatikusan lezárja az Observable-t",
+      "c) Csak hibákat enged át",
+      "d) Visszaadja az első operátort"
+    ],
+    "correct": "b",
+    "index": 194
+  },
+  {
+    "q": "Melyik a helyes Firebase inicializálás modern moduláris SDK-val?",
+    "a": [
+      "a) firebase.initApp(config)",
+      "b) initializeApp(config) importálva a 'firebase/app' modulból",
+      "c) new Firebase(config)",
+      "d) firebase.start(config)"
+    ],
+    "correct": "b",
+    "index": 195
+  },
+  {
+    "q": "Mit csinál a collection(firestore, 'todos') hívás az @angular/fire/firestore modulban?",
+    "a": [
+      "a) Új Firestore adatbázist hoz létre",
+      "b) Hivatkozást ad egy 'todos' nevű kollekcióra",
+      "c) Azonnal lekéri az összes dokumentumot",
+      "d) Törli a kollekciót"
+    ],
+    "correct": "b",
+    "index": 196
+  },
+  {
+    "q": "Mire való a collectionData(collectionRef, { idField: 'id' }) Angular Fire-ben?",
+    "a": [
+      "a) HTTP GET-et küld a szervernek",
+      "b) Observable-t ad vissza a kollekció dokumentumairól, az idField megadja, melyik property-be kerüljön a dokumentum ID",
+      "c) Törli a dokumentumokat",
+      "d) Csak egyszeri lekérdezést végez"
+    ],
+    "correct": "b",
+    "index": 197
+  },
+  {
+    "q": "Mi a Firebase Authentication fő célja webalkalmazásban?",
+    "a": [
+      "a) Képek optimalizálása",
+      "b) Felhasználók azonosítása (email/jelszó, OAuth, stb.) és bejelentkeztetése",
+      "c) SQL migráció kezelése",
+      "d) CDN konfigurálása"
+    ],
+    "correct": "b",
+    "index": 198
+  },
+  {
+    "q": "Mit jelent a Firestore szabályban: allow read, write: if request.auth != null;?",
+    "a": [
+      "a) Bárki olvashat/írhat",
+      "b) Csak autentikált (bejelentkezett) felhasználók olvashatnak és írhatnak",
+      "c) Senki sem fér hozzá",
+      "d) Csak admin felhasználók írhatnak"
+    ],
+    "correct": "b",
+    "index": 199
+  },
+  {
+    "q": "Mire való a Firebase Hosting egy SPA (Angular) app esetén?",
+    "a": [
+      "a) Csak képek tárolására",
+      "b) Statikus fájlok (HTML, CSS, JS) és SPA-k HTTPS-en történő kiszolgálására, globális CDN-nel",
+      "c) Csak backend funkciók futtatására",
+      "d) Csak adatbázis admin felületként működik"
+    ],
+    "correct": "b",
+    "index": 200
+  },
+  {
+    "q": "Melyik HTML elem jelöli az oldal tetején lévő bevezető/fejléc részt?",
+    "a": [
+      "a) &lt;top&gt;",
+      "b) &lt;header&gt;",
+      "c) &lt;head&gt;",
+      "d) &lt;main&gt;"
+    ],
+    "correct": "b",
+    "index": 201
+  },
+  {
+    "q": "Miért fontos a lang attribútum a &lt;html&gt; elemen (pl. &lt;html lang=\"hu\"&gt;)?",
+    "a": [
+      "a) A böngésző betűtípusát állítja",
+      "b) Segíti a keresőmotorokat és a segédeszközöket (screen reader) a nyelv felismerésében",
+      "c) Nem fontos, csak dekoráció",
+      "d) A JavaScript nyelvét állítja"
+    ],
+    "correct": "b",
+    "index": 202
+  },
+  {
+    "q": "Melyik HTML elemet használjuk rendezett listához?",
+    "a": [
+      "a) &lt;ul&gt;",
+      "b) &lt;ol&gt;",
+      "c) &lt;li&gt;",
+      "d) &lt;dl&gt;"
+    ],
+    "correct": "b",
+    "index": 203
+  },
+  {
+    "q": "Melyik a helyes sorrend egy alap táblázatnál?",
+    "a": [
+      "a) &lt;table&gt;&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;",
+      "b) &lt;table&gt;&lt;td&gt;&lt;tr&gt;&lt;/tr&gt;&lt;/td&gt;&lt;/table&gt;",
+      "c) &lt;tr&gt;&lt;table&gt;&lt;td&gt;&lt;/td&gt;&lt;/table&gt;&lt;/tr&gt;",
+      "d) &lt;table&gt;&lt;row&gt;&lt;col&gt;&lt;/col&gt;&lt;/row&gt;&lt;/table&gt;"
+    ],
+    "correct": "a",
+    "index": 204
+  },
+  {
+    "q": "Melyik attribútum határozza meg egy &lt;form&gt; elküldési címét?",
+    "a": [
+      "a) method",
+      "b) action",
+      "c) href",
+      "d) target"
+    ],
+    "correct": "b",
+    "index": 205
+  },
+  {
+    "q": "Melyik input típust használod e-mail mezőhöz?",
+    "a": [
+      "a) type=\"text\"",
+      "b) type=\"mail\"",
+      "c) type=\"email\"",
+      "d) type=\"string\""
+    ],
+    "correct": "c",
+    "index": 206
+  },
+  {
+    "q": "Melyik elem használható natív videólejátszásra HTML5-ben?",
+    "a": [
+      "a) &lt;movie&gt;",
+      "b) &lt;video&gt;",
+      "c) &lt;media&gt;",
+      "d) &lt;player&gt;"
+    ],
+    "correct": "b",
+    "index": 207
+  },
+  {
+    "q": "Melyik NEM semantic HTML elem az alábbiak közül?",
+    "a": [
+      "a) &lt;nav&gt;",
+      "b) &lt;section&gt;",
+      "c) &lt;article&gt;",
+      "d) &lt;div&gt;"
+    ],
+    "correct": "d",
+    "index": 208
+  },
+  {
+    "q": "Mi az ARIA role attribútum fő célja (pl. role=\"button\")?",
+    "a": [
+      "a) CSS stílusok alkalmazása",
+      "b) Segédeszközök számára a szerep pontos jelzése, pl. screen reader",
+      "c) JavaScript automatikus generálása",
+      "d) HTTP fejléc beállítása"
+    ],
+    "correct": "b",
+    "index": 209
+  },
+  {
+    "q": "Mire használjuk a meta description taget?",
+    "a": [
+      "a) A böngésző címsor szövegére",
+      "b) Oldalleírás megadására, ami megjelenhet a keresőmotorok találatai között",
+      "c) CSS stílusok definíciójára",
+      "d) JavaScript kód beillesztésére"
+    ],
+    "correct": "b",
+    "index": 210
+  },
+  {
+    "q": "Mely elemek részei a CSS box modellnek?",
+    "a": [
+      "a) margin, padding, color",
+      "b) margin, border, padding, content",
+      "c) width, height, font",
+      "d) margin, display, position"
+    ],
+    "correct": "b",
+    "index": 211
+  },
+  {
+    "q": "Melyik selector a legspecifikusabb?",
+    "a": [
+      "a) p",
+      "b) .btn-primary",
+      "c) #main",
+      "d) div p span"
+    ],
+    "correct": "c",
+    "index": 212
+  },
+  {
+    "q": "Mit csinál a justify-content: center; egy flex konténerben alapértelmezett (row) irányban?",
+    "a": [
+      "a) A fő tengely mentén középre igazítja a gyerekeket",
+      "b) A kereszt tengely mentén középre igazítja a gyerekeket",
+      "c) Balra igazít",
+      "d) Jobbra igazít"
+    ],
+    "correct": "a",
+    "index": 213
+  },
+  {
+    "q": "Mit csinál az align-items: center; egy flex konténerben?",
+    "a": [
+      "a) A fő tengely mentén középre igazít",
+      "b) A kereszt tengely mentén középre igazít",
+      "c) Sorba rendezi a gyerekeket",
+      "d) Egyenletesen osztja el a gyerekeket"
+    ],
+    "correct": "b",
+    "index": 214
+  },
+  {
+    "q": "Melyik a helyes media query szintaxis mobilra (max 600px szélességig)?",
+    "a": [
+      "a) @media screen and (width < 600px) { ... }",
+      "b) @media (max-width: 600px) { ... }",
+      "c) @media mobile { ... }",
+      "d) @media width<=600 { ... }"
+    ],
+    "correct": "b",
+    "index": 215
+  },
+  {
+    "q": "Mit tesz lehetővé az SCSS nested selector (beágyazás)?",
+    "a": [
+      "a) JavaScript kód futtatását CSS-ben",
+      "b) Hierarchikus, olvashatóbb CSS struktúrát (pl. .card { h2 { ... } })",
+      "c) HTTP kérések indítását",
+      "d) Build nélküli futást"
+    ],
+    "correct": "b",
+    "index": 216
+  },
+  {
+    "q": "Mit jelöl a col-md-6 osztály Bootstrapben?",
+    "a": [
+      "a) Mobilon 6 oszlop, desktopon 12",
+      "b) Medium (&gt;=768px) viewporttól kezdve 6 oszlopot foglal a 12-es gridből",
+      "c) Mindig fél képernyőt foglal",
+      "d) Csak tableten működik"
+    ],
+    "correct": "b",
+    "index": 217
+  },
+  {
+    "q": "Melyik jellemző igaz a display: inline-block; elemre?",
+    "a": [
+      "a) Nem kaphat width/height-et",
+      "b) Sornyi helyet foglal, de méretezhető width/height-tal, és egymás mellé rendezhető",
+      "c) Új sort tör minden elem után",
+      "d) Csak blokkszintű elemeken használható"
+    ],
+    "correct": "b",
+    "index": 218
+  },
+  {
+    "q": "Mi történik overflow: hidden; beállításnál?",
+    "a": [
+      "a) A tartalom túlnyúló része elrejtődik",
+      "b) Görgetősáv jelenik meg",
+      "c) A tartalom kifolyik a dobozból",
+      "d) Nem történik semmi"
+    ],
+    "correct": "a",
+    "index": 219
+  },
+  {
+    "q": "Mire használjuk a z-index tulajdonságot?",
+    "a": [
+      "a) Szöveg méretének beállítására",
+      "b) Háttérszín beállítására",
+      "c) Rétegsorrend (stacking order) szabályozására egymást átfedő elemeknél",
+      "d) Animáció sebességének beállítására"
+    ],
+    "correct": "c",
+    "index": 220
+  },
+  {
+    "q": "Mit ad vissza a fetch(url) hívás?",
+    "a": [
+      "a) Szinkron Response objektumot",
+      "b) Promise-t, amely egy Response objektummal teljesül",
+      "c) Observable-t",
+      "d) WebSocketet"
+    ],
+    "correct": "b",
+    "index": 221
+  },
+  {
+    "q": "Mi a CORS (Cross-Origin Resource Sharing) fő célja?",
+    "a": [
+      "a) Kirajzolási sebesség növelése",
+      "b) Különböző domainek közötti HTTP kérések biztonságos szabályozása",
+      "c) CSS betöltés optimalizálása",
+      "d) Cookie-k tiltása"
+    ],
+    "correct": "b",
+    "index": 222
+  },
+  {
+    "q": "Mit jelent a 200 HTTP státuszkód?",
+    "a": [
+      "a) Sikeres kérés, válasz tartalommal (ha van)",
+      "b) Kliens hiba",
+      "c) Szerver hiba",
+      "d) Átirányítás"
+    ],
+    "correct": "a",
+    "index": 223
+  },
+  {
+    "q": "Mit jelent a 404 HTTP státuszkód?",
+    "a": [
+      "a) Sikeres kérés",
+      "b) Nem található – a kért erőforrás nem létezik",
+      "c) Jogosulatlan",
+      "d) Belső szerver hiba"
+    ],
+    "correct": "b",
+    "index": 224
+  },
+  {
+    "q": "Mit jelent az 500 HTTP státuszkód?",
+    "a": [
+      "a) Kliens hiba",
+      "b) Szerver oldali hiba",
+      "c) OK",
+      "d) Átirányítás"
+    ],
+    "correct": "b",
+    "index": 225
+  },
+  {
+    "q": "Mire használhatók a HTTP cookie-k?",
+    "a": [
+      "a) CSS stílusok tárolására",
+      "b) Kis mennyiségű kliens oldali adat tárolására, pl. session azonosító",
+      "c) HTML struktúra mentésére",
+      "d) JavaScript futtatására"
+    ],
+    "correct": "b",
+    "index": 226
+  },
+  {
+    "q": "Mi a fő különbség a localStorage és a sessionStorage között?",
+    "a": [
+      "a) Nincs különbség",
+      "b) A localStorage adat tartós (böngésző bezárása után is), a sessionStorage adat a tab bezárásáig él",
+      "c) A sessionStorage nagyobb adatot tárolhat",
+      "d) A localStorage csak a szerveren elérhető"
+    ],
+    "correct": "b",
+    "index": 227
+  },
+  {
+    "q": "Mi az XSS (Cross-Site Scripting) támadás lényege?",
+    "a": [
+      "a) SQL lekérdezések módosítása",
+      "b) Külső JS kód befecskendezése és futtatása a felhasználó böngészőjében",
+      "c) DDoS támadás indítása",
+      "d) HTTPS kapcsolatok feltörése"
+    ],
+    "correct": "b",
+    "index": 228
+  },
+  {
+    "q": "Mit biztosít a HTTPS a HTTP-hez képest?",
+    "a": [
+      "a) Mindig gyorsabb betöltést",
+      "b) Titkosított kommunikációt és a szerver tanúsítványon alapuló hitelesítését",
+      "c) Kevesebb adatforgalmat",
+      "d) HTTP header-ek eltávolítását"
+    ],
+    "correct": "b",
+    "index": 229
+  },
+  {
+    "q": "Mi a debounce minta fő célja JS-ben (pl. input mező figyelésekor)?",
+    "a": [
+      "a) Gyorsítás mindenáron",
+      "b) Egy esemény sorozat közben csak a legutolsó hívást engedi lefutni egy adott késleltetés után",
+      "c) Minden eseményt azonnal futtat",
+      "d) Csak az első eseményt engedi át"
+    ],
+    "correct": "b",
+    "index": 230
+  },
+  {
+    "q": "Mi a throttle minta fő célja (pl. scroll eseménynél)?",
+    "a": [
+      "a) Egy eseményt csak meghatározott időközönként enged lefutni",
+      "b) Minden esemény lefutásának tiltása",
+      "c) Minden esemény azonnali futtatása",
+      "d) Események összevonása Promise-szá"
+    ],
+    "correct": "a",
+    "index": 231
+  },
+  {
+    "q": "Mit csinál a console.error() hívás?",
+    "a": [
+      "a) Hiba exception-t dob",
+      "b) Üzenetet ír a böngésző hibakonzoljára, általában pirossal",
+      "c) Kitörli a konzolt",
+      "d) Bezárja a böngészőt"
+    ],
+    "correct": "b",
+    "index": 232
+  },
+  {
+    "q": "Mit csinálhat a második paraméter a JSON.stringify(obj, replacer)?",
+    "a": [
+      "a) Meghatározza, mely kulcsokat hagyja ki vagy módosítsa a stringelés során",
+      "b) A JSON visszaalakítására szolgál",
+      "c) HTML-t generál",
+      "d) CSS-t minifikál"
+    ],
+    "correct": "a",
+    "index": 233
+  },
+  {
+    "q": "Mikor fut le a window.onload handler?",
+    "a": [
+      "a) Azonnal, amint a HTML letöltődött",
+      "b) Miután az egész oldal, beleértve az összes erőforrást (képek, CSS, JS), betöltött",
+      "c) Minden kattintáskor",
+      "d) Soha nem fut le"
+    ],
+    "correct": "b",
+    "index": 234
+  },
+  {
+    "q": "Mi a különbség a DOMContentLoaded és a load esemény között?",
+    "a": [
+      "a) Nincs különbség",
+      "b) DOMContentLoaded akkor fut, amikor a DOM felépült (resource-ok betöltése nélkül), a load csak minden erőforrás után",
+      "c) A load csak hibakor fut",
+      "d) A DOMContentLoaded csak mobilon működik"
+    ],
+    "correct": "b",
+    "index": 235
+  },
+  {
+    "q": "Miért fontos az alt attribútum a képeknél?",
+    "a": [
+      "a) A kép méretét adja meg",
+      "b) Helyettesítő szöveget ad látássérülteknek és akkor is, ha a kép nem tölt be",
+      "c) CSS stílusokat tartalmaz",
+      "d) JavaScript kódot tartalmaz"
+    ],
+    "correct": "b",
+    "index": 236
+  },
+  {
+    "q": "Mi a helyes heading hierarchia fő elve?",
+    "a": [
+      "a) Tetszőleges sorrendben bármilyen heading szint használható",
+      "b) Egy oldalnak általában egy &lt;h1&gt;-je van, alatta logikusan &lt;h2&gt;, &lt;h3&gt; stb.",
+      "c) Csak &lt;h3&gt; használható",
+      "d) A headingeknek nincs hatása semmire"
+    ],
+    "correct": "b",
+    "index": 237
+  },
+  {
+    "q": "Mit befolyásol a tabindex attribútum?",
+    "a": [
+      "a) A CSS sorrendjét",
+      "b) A billentyűzettel történő fókuszváltás (Tab sorrend) logikáját",
+      "c) A JavaScript feltöltési sorrendjét",
+      "d) A HTTP kérések számát"
+    ],
+    "correct": "b",
+    "index": 238
+  },
+  {
+    "q": "Miért fontos a megfelelő színkontraszt (pl. szöveg és háttér között)?",
+    "a": [
+      "a) Csak dizájn szempontból számít",
+      "b) Olvashatóság és hozzáférhetőség (pl. látássérült felhasználók) miatt",
+      "c) Gyorsítja a weboldalt",
+      "d) Nem fontos egyáltalán"
+    ],
+    "correct": "b",
+    "index": 239
+  },
+  {
+    "q": "Mi a különbség a &lt;title&gt; és a &lt;h1&gt; között?",
+    "a": [
+      "a) Nincs különbség",
+      "b) A &lt;title&gt; a böngésző fül címét adja, a &lt;h1&gt; az oldalon belüli fő címsor",
+      "c) A &lt;h1&gt; csak SEO-hoz kell, a &lt;title&gt; nem fontos",
+      "d) Mindkettő csak dizájn elem"
+    ],
+    "correct": "b",
+    "index": 240
+  },
+  {
+    "q": "Mi a sitemap.xml fő célja SEO szempontból?",
+    "a": [
+      "a) CSS stílusok listázása",
+      "b) A weboldal struktúrájának jelzése a keresőmotorok felé",
+      "c) JavaScript fájlok felsorolása",
+      "d) Felhasználói beállítások tárolása"
+    ],
+    "correct": "b",
+    "index": 241
+  },
+  {
+    "q": "Mire való a robots.txt fájl?",
+    "a": [
+      "a) A böngészők cache beállítására",
+      "b) A keresőrobotok számára engedélyezett/tiltott URL-ek jelzésére",
+      "c) A szerver erőforrásainak listázására",
+      "d) A felhasználói adatok tárolására"
+    ],
+    "correct": "b",
+    "index": 242
+  },
+  {
+    "q": "Mit jelent a canonical link (rel=\"canonical\") használata?",
+    "a": [
+      "a) Megmondja a böngészőnek, melyik CSS fájlt töltse be",
+      "b) Jelzi a keresőmotoroknak a tartalom „eredeti”/preferált URL-jét duplikált tartalom esetén",
+      "c) Tiltja az indexelést",
+      "d) Mobilbarát nézetet kapcsol"
+    ],
+    "correct": "b",
+    "index": 243
+  },
+  {
+    "q": "Mi a fő kihívás SEO szempontból SPA (Single Page Application) esetén?",
+    "a": [
+      "a) Túl sok HTML fájl",
+      "b) A tartalom dinamikusan, kliens oldalon töltődik be, amit a keresőrobotok nehezebben látnak",
+      "c) Nincs CSS",
+      "d) Nem lehet képeket használni"
+    ],
+    "correct": "b",
+    "index": 244
+  },
+  {
+    "q": "Mi a lazy loading képeknél (loading=\"lazy\") fő előnye?",
+    "a": [
+      "a) Mindig nagyobb képméret",
+      "b) Csak akkor tölti le a képet, ha az a viewport közelébe kerül, így gyorsabb a kezdeti betöltés",
+      "c) Blokkolja a JavaScriptet",
+      "d) Kizárólag mobilon működik"
+    ],
+    "correct": "b",
+    "index": 245
+  },
+  {
+    "q": "Melyik technika segít a render-blocking CSS/JS minimalizálásában?",
+    "a": [
+      "a) Inline minden JS egyetlen &lt;script&gt; tagbe a &lt;head&gt;-ben",
+      "b) CSS minifikálás, critical CSS inline, JS fájlok defer/async attribútummal",
+      "c) Minél több külső font használata",
+      "d) Minden erőforrás szinkron betöltése a &lt;head&gt;-ben"
+    ],
+    "correct": "b",
+    "index": 246
+  },
+  {
+    "q": "Mire használható a Chrome DevTools Lighthouse eszköze?",
+    "a": [
+      "a) Kizárólag CSS hibák keresésére",
+      "b) Teljesítmény, SEO, accessibility és best practice auditokra",
+      "c) Kizárólag JavaScript debugra",
+      "d) Git commit kezelésre"
+    ],
+    "correct": "b",
+    "index": 247
+  },
+  {
+    "q": "Mit jelent a FOUC (Flash of Unstyled Content)?",
+    "a": [
+      "a) Az oldal hirtelen elsötétül",
+      "b) A tartalom rövid ideig stílusok nélkül jelenik meg, mielőtt a CSS betöltődik",
+      "c) A böngésző összeomlik",
+      "d) A JS nem fut le"
+    ],
+    "correct": "b",
+    "index": 248
+  },
+  {
+    "q": "Mi a Critical Rendering Path optimalizálásának célja?",
+    "a": [
+      "a) Csak a backend gyorsítása",
+      "b) Az első látható tartalom (First Paint/Contentful Paint) minél gyorsabb megjelenítése",
+      "c) Java kód optimalizálása",
+      "d) HTTP/3 kikapcsolása"
+    ],
+    "correct": "b",
+    "index": 249
+  },
+  {
+    "q": "Miért használunk bundlert (pl. Webpack, Vite, esbuild) frontend projektekben?",
+    "a": [
+      "a) Csak a CSS színek cseréjére",
+      "b) Modulok összefűzése, minifikálás, tree shaking, asset kezelése egy hatékonyabb build érdekében",
+      "c) A böngésző helyettesítésére",
+      "d) A Git kiváltására"
+    ],
+    "correct": "b",
+    "index": 250
+  }
+]
