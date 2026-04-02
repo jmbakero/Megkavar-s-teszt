@@ -1,5 +1,10 @@
 let questionPool = [];
 
+const NUM_QUESTIONS = 40; // megjelenítendő kérdések száma (max 50 lehet a poolból)
+
+ document.title = "Junior Frontend - Randomizált " + NUM_QUESTIONS + " kérdéses teszt";
+ document.getElementById("pageTitle").textContent = document.title;
+
  loadQuestions();
 
  async function loadQuestions() {
@@ -120,8 +125,8 @@ let questionPool = [];
 
     function shuffleQuestions() {
       // Kevert sorrendű kérdéssor; ha később nagyobb poolod lesz,
-      // itt elég a shuffleArray(questionPool).slice(0, 50)-et használni.
-      questions = shuffleArray(questionPool).slice(0, 40);
+      // itt elég a shuffleArray(questionPool).slice(0, NUM_QUESTIONS)-et használni.
+      questions = shuffleArray(questionPool).slice(0, NUM_QUESTIONS);
       document.getElementById("result").style.display = "none";
       renderQuiz();
     }
