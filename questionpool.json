@@ -2748,5 +2748,1105 @@
     ],
     "correct": "b",
     "index": 250
-  }
+  },
+  {
+      "q": "Mit jelent a progressive enhancement elve frontend fejlesztésben?",
+      "a": [
+        "a) Először a legtöbb funkciót implementáljuk, majd fokozatosan kivesszük",
+        "b) Először egy egyszerű, minden böngészőben működő alapot készítünk, majd fokozatosan bővítjük modern feature-ökkel",
+        "c) Mindig csak a legújabb API-kat használjuk",
+        "d) Csak mobilra fejlesztünk"
+      ],
+      "correct": "b",
+      "index": 251
+    },
+    {
+      "index": 252,
+      "q": "Melyik HTTP metódus idempotens a REST szemlélet szerint?",
+      "a": [
+        "a) POST",
+        "b) PUT",
+        "c) PATCH",
+        "d) TRACE"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 253,
+      "q": "Mit jelent az, hogy egy REST API erőforrás-orientált?",
+      "a": [
+        "a) Csak HTML-t ad vissza",
+        "b) URL-ekkel azonosított erőforrásokra végez műveleteket HTTP metódusokkal",
+        "c) Csak adatbázis műveleteket végez",
+        "d) Mindig WebSocketet használ"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 254,
+      "q": "Melyik HTML elem a helyes egy gomb vizuális megjelenítéséhez és funkciójához?",
+      "a": [
+        "a) &lt;div onclick=\"...\"&gt;",
+        "b) &lt;span onclick=\"...\"&gt;",
+        "c) &lt;button&gt;",
+        "d) &lt;a&gt; minden esetben"
+      ],
+      "correct": "c"
+    },
+    {
+      "index": 255,
+      "q": "Mit jelent az, hogy egy HTML dokumentum valid?",
+      "a": [
+        "a) A böngésző nem jelez hibát",
+        "b) Megfelel egy adott HTML szabvány (pl. HTML5) szintaktikai szabályainak",
+        "c) Minden böngészőben ugyanúgy néz ki",
+        "d) Nem tartalmaz JavaScriptet"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 256,
+      "q": "Melyik HTML attribútum tiltja le az űrlap kliens oldali validációját?",
+      "a": [
+        "a) novalidate",
+        "b) noscript",
+        "c) nohtml",
+        "d) disable-validation"
+      ],
+      "correct": "a"
+    },
+    {
+      "index": 257,
+      "q": "Melyik CSS egység NEM relatív?",
+      "a": [
+        "a) em",
+        "b) rem",
+        "c) px",
+        "d) vw"
+      ],
+      "correct": "c"
+    },
+    {
+      "index": 258,
+      "q": "Mit jelent a CSS-ben a :root selector?",
+      "a": [
+        "a) A dokumentum body eleme",
+        "b) A html elem, gyakran globális CSS változók definiálására",
+        "c) A legfelső div",
+        "d) Csak SVG-nél használható"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 259,
+      "q": "Mire jók a CSS custom properties (változók), pl. --primary-color?",
+      "a": [
+        "a) JavaScript kód futtatására",
+        "b) Olyan értékek központosított definiálására, amelyek temázhatók és később felülírhatók",
+        "c) HTML generálásra",
+        "d) HTTP kérések indítására"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 260,
+      "q": "Mit csinál a box-shadow tulajdonság?",
+      "a": [
+        "a) Árnyékot ad a szövegnek",
+        "b) Árnyékot ad a doboz köré (doboz-árnyék)",
+        "c) Átlátszóvá teszi a dobozt",
+        "d) Eltünteti a border-t"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 261,
+      "q": "Mit jelent a position: sticky; CSS-ben?",
+      "a": [
+        "a) Mindig a viewporthoz ragad felül",
+        "b) Görgetésig normál pozícióban marad, majd egy adott ponttól fixen tapad a viewporthoz",
+        "c) Nem mozdul el soha",
+        "d) Csak mobilon működik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 262,
+      "q": "Mit jelent a 'content-box' box-sizing beállítás?",
+      "a": [
+        "a) A border és a padding is beleszámít a width/height értékbe",
+        "b) Csak a content szélessége és magassága számít, a padding és border hozzáadódik kívül",
+        "c) A margin is beleszámít a width-be",
+        "d) Nem érvényes érték"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 263,
+      "q": "Melyik state NEM tartozik a CSS link pszeudoosztályai közé?",
+      "a": [
+        "a) :link",
+        "b) :visited",
+        "c) :hover",
+        "d) :clicked"
+      ],
+      "correct": "d"
+    },
+    {
+      "index": 264,
+      "q": "Mit jelent a JS-ben, hogy a típusok dinamikusak?",
+      "a": [
+        "a) A változóknak fix típusa van, amit nem lehet változtatni",
+        "b) A változó típusa futásidőben változhat az érték szerint",
+        "c) A típusok csak fordításkor léteznek",
+        "d) Nincsenek típusok"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 265,
+      "q": "Mit ad vissza: Array.from('abc')?",
+      "a": [
+        "a) ['abc']",
+        "b) ['a','b','c']",
+        "c) ['a','b','c','']",
+        "d) Error"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 266,
+      "q": "Mit ad vissza: ['a','b','c'].includes('b')?",
+      "a": [
+        "a) true",
+        "b) false",
+        "c) 'b'",
+        "d) 1"
+      ],
+      "correct": "a"
+    },
+    {
+      "index": 267,
+      "q": "Mit csinál a new Set([1,2,2,3])?",
+      "a": [
+        "a) [1,2,2,3]",
+        "b) Halmazt hoz létre egyedi elemekkel: {1,2,3}",
+        "c) Hibát dob",
+        "d) Mindig üres lesz"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 268,
+      "q": "Mire jó a Map a JavaScriptben?",
+      "a": [
+        "a) Kizárólag tömbök tárolására",
+        "b) Kulcs-érték párok tárolására, ahol a kulcs lehet tetszőleges típus",
+        "c) CSS stílusok mentésére",
+        "d) DOM elemek tárolására kizárólag"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 269,
+      "q": "Mit csinál a Promise.all([p1,p2,p3])?",
+      "a": [
+        "a) Az elsőként teljesülő Promise értékét adja vissza",
+        "b) Megvárja, míg az összes Promise teljesül, vagy bármelyik elutasításra kerül",
+        "c) Csak p1-et várja meg",
+        "d) Csak a hibákat gyűjti"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 270,
+      "q": "Mit csinál a Promise.race([...])?",
+      "a": [
+        "a) Összevonja az összes Promise eredményét egy tömbbe",
+        "b) Annak a Promise-nak az eredményét adja, amelyik először teljesül vagy elutasításra kerül",
+        "c) Mindig hibát ad",
+        "d) Nem létezik ilyen"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 271,
+      "q": "Mit jelent a 'deep copy' objektumoknál?",
+      "a": [
+        "a) Csak a felső szintű property-k másolódnak",
+        "b) Az objektum és minden beágyazott objektuma új példányként jön létre",
+        "c) Referenciát másolunk csak",
+        "d) Nincs ilyen fogalom JS-ben"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 272,
+      "q": "Mit csinál egy pure function (tiszta függvény)?",
+      "a": [
+        "a) Módosítja a globális állapotot",
+        "b) Ugyanarra a bemenetre mindig ugyanazt a kimenetet adja, mellékhatás nélkül",
+        "c) Csak aszinkron lehet",
+        "d) Mindig véletlen számot ad vissza"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 273,
+      "q": "Mit csinál a window.requestAnimationFrame(callback)?",
+      "a": [
+        "a) Azonnal futtatja a callbacket",
+        "b) A következő repaint előtt futtatja a callbacket, animációkhoz optimalizálva",
+        "c) Egy új threadet indít",
+        "d) HTTP kérést küld"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 274,
+      "q": "Mit jelent a CSS-ben a @media print {} blokk?",
+      "a": [
+        "a) Csak mobilon érvényes",
+        "b) Nyomtatáskor alkalmazandó stílusokat tartalmaz",
+        "c) Mindig override-olja a többi stílust",
+        "d) Nem szabványos"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 275,
+      "q": "Mit jelent az ARIA 'aria-label' attribútum?",
+      "a": [
+        "a) HTML kommentet helyettesít",
+        "b) Kiegészítő, nem vizuális címkét ad egy elemhez segédeszközök számára",
+        "c) CSS osztálynevet definiál",
+        "d) JavaScript változót definiál"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 276,
+      "q": "Mit jelent az 'aria-hidden=\"true\"' egy elemen?",
+      "a": [
+        "a) Elrejti az elemet a vizuális megjelenítésben",
+        "b) Elrejti az elemet a segédeszközök (screen reader) elől, de vizuálisan látható maradhat",
+        "c) Tiltja a JavaScriptet",
+        "d) Csak mobilon működik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 277,
+      "q": "Mit jelent a 'semantic HTML' kifejezés?",
+      "a": [
+        "a) Minden elem &lt;div&gt; legyen",
+        "b) A tartalom jelentésének megfelelő HTML elemek használata (pl. &lt;nav&gt;, &lt;main&gt;, &lt;article&gt;)",
+        "c) Inline stílusok használata",
+        "d) Csak ID-k használata"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 278,
+      "q": "Miért jó gyakorlat az img elemekhez width és height attribútumot adni?",
+      "a": [
+        "a) Nem számít",
+        "b) Segít a böngészőnek előre megtervezni a layoutot, csökkentve a layout shift-et",
+        "c) Lassítja a betöltést",
+        "d) Csak SEO miatt fontos"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 279,
+      "q": "Mit jelent az LCP (Largest Contentful Paint) metrika?",
+      "a": [
+        "a) JavaScript futási időt",
+        "b) Az időt, amíg a legnagyobb, fő tartalom (pl. hero kép vagy nagy szövegblokk) megjelenik",
+        "c) HTTP válasz méretét",
+        "d) CSS fájl méretét"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 280,
+      "q": "Mit jelent a 'First Input Delay' (FID) metrika?",
+      "a": [
+        "a) Mennyit késik az oldal első HTTP kérése",
+        "b) A felhasználó első interakciója és az arra való válasz közötti késleltetés",
+        "c) A CSS parse ideje",
+        "d) A DNS lookup ideje"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 281,
+      "q": "Mit jelent a 'hydration' fogalma SPA/SSR kontextusban?",
+      "a": [
+        "a) Képek tömörítését",
+        "b) A szerveren renderelt HTML kliens oldali JS-hez kötését, hogy interaktívvá váljon",
+        "c) CSS inline-olását",
+        "d) HTTP cache ürítését"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 282,
+      "q": "Mit jelent az 'idempotens' HTTP metódus?",
+      "a": [
+        "a) Minden hívás más eredményt ad",
+        "b) Többszöri azonos hívás hatása megegyezik egyetlen hívás hatásával",
+        "c) Csak egyszer hívható",
+        "d) Csak GET lehet"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 283,
+      "q": "Mit csinál egy Service Worker a PWA-kban?",
+      "a": [
+        "a) Always-on szerver oldali folyamat",
+        "b) A böngészőben futó háttér script, amely képes cache-elni, offline működést és push értesítéseket kezelni",
+        "c) Csak cookie-kat kezel",
+        "d) Csak CSS-t minifikál"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 284,
+      "q": "Mit jelent a 'cache busting' fogalma?",
+      "a": [
+        "a) Cache teljes tiltása",
+        "b) Mechanizmus, amivel biztosítjuk, hogy új build esetén a böngésző új fájlt töltsön (pl. verziózott fájlnevek)",
+        "c) A cache törlése minden kérésnél",
+        "d) Csak backend oldali fogalom"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 285,
+      "q": "Mit jelent a 'Content Security Policy' (CSP)?",
+      "a": [
+        "a) CSS szabvány",
+        "b) HTTP header, amellyel meghatározhatjuk, honnan tölthető be script, kép, stb., csökkentve az XSS kockázatát",
+        "c) Cookie beállítás",
+        "d) CSRF token"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 286,
+      "q": "Mit jelent az 'HttpOnly' flag egy cookie-nál?",
+      "a": [
+        "a) Csak HTTP/2-nél érhető el",
+        "b) A cookie csak HTTP kérésekben érhető el, JavaScript (document.cookie) nem fér hozzá",
+        "c) Csak localhoston használható",
+        "d) Csak mobilon működik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 287,
+      "q": "Mit jelent a 'SameSite=Lax' cookie beállítás?",
+      "a": [
+        "a) A cookie soha nem küldhető cross-site kéréseknél",
+        "b) A cookie csak elsődleges navigációknál (linkre kattintás) mehet át, harmadik fél kéréseknél nem",
+        "c) A cookie mindig átmegy",
+        "d) Nem szabványos"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 288,
+      "q": "Mit jelent a 'CSRF' rövidítés?",
+      "a": [
+        "a) Cross-Site Request Forgery",
+        "b) Cross-Site Resource Fetch",
+        "c) Client Side Request Filter",
+        "d) Cookie Secure Random Flag"
+      ],
+      "correct": "a"
+    },
+    {
+      "index": 289,
+      "q": "Mit csinál a history.pushState() a böngészőben?",
+      "a": [
+        "a) Új HTTP kérést indít",
+        "b) Módosítja a címsort és a history stack-et oldal újratöltése nélkül",
+        "c) Bezárja a tabot",
+        "d) Törli a history-t"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 290,
+      "q": "Mit csinál a window.history.back()?",
+      "a": [
+        "a) Előre navigál",
+        "b) Visszalép az előző history bejegyzésre",
+        "c) Új tabot nyit",
+        "d) Bezárja az oldalt"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 291,
+      "q": "Mit ad vissza az alábbi kód?\nconst res = [1,2,3].flatMap(x =&gt; [x, x*2]);",
+      "a": [
+        "a) [1,2,3]",
+        "b) [1,2,2,4,3,6]",
+        "c) [[1,2],[2,4],[3,6]]",
+        "d) [2,4,6]"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 292,
+      "q": "Mit csinál a String.prototype.padStart(targetLength, padString)?",
+      "a": [
+        "a) A string végéhez ad hozzá kitöltő karaktereket",
+        "b) A string elejéhez ad hozzá kitöltő karaktereket, míg el nem éri a targetLength-et",
+        "c) Trim-meli a stringet",
+        "d) Mindig hibát dob"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 293,
+      "q": "Mit jelent a 'tree shaking' a bundlerek világában?",
+      "a": [
+        "a) DOM fa mozgatása",
+        "b) Nem használt (dead) kód eltávolítása a végső bundle-ból",
+        "c) CSS rendezése",
+        "d) HTTP kérések optimalizálása"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 294,
+      "q": "Mit jelent a 'code splitting' fogalma?",
+      "a": [
+        "a) A kódot kézzel több fájlba tördeljük",
+        "b) A bundler több, külön betölthető csomagra vágja a kódot, hogy ne kelljen mindent egyszerre betölteni",
+        "c) A kód tördelése kommentek alapján",
+        "d) Csak CSS-re vonatkozik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 295,
+      "q": "Mit jelent az 'SSR' rövidítés frontend fejlesztésben?",
+      "a": [
+        "a) Secure Script Rendering",
+        "b) Server-Side Rendering",
+        "c) Single Script Runtime",
+        "d) Safe Style Rules"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 296,
+      "q": "Mit jelent a 'CSR' rövidítés frontend kontextusban?",
+      "a": [
+        "a) Client-Side Rendering",
+        "b) Content Security Rendering",
+        "c) Central Script Registry",
+        "d) Client Service Request"
+      ],
+      "correct": "a"
+    },
+    {
+      "index": 297,
+      "q": "Mit jelent az 'isomorphic' (vagy universal) JavaScript alkalmazás?",
+      "a": [
+        "a) Csak backend oldalon fut",
+        "b) Ugyanaz a kód fut szerveren és kliensen is (pl. SSR + CSR)",
+        "c) Csak böngészőben fut",
+        "d) Nem használ HTTP-t"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 298,
+      "q": "Mit jelent az 'npm script' fogalma?",
+      "a": [
+        "a) Böngészőben futó szkript",
+        "b) A package.json scripts szekciójában definiált parancs, amelyet npm-ből futtathatsz",
+        "c) Server oldali script nyelv",
+        "d) CSS futtató"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 299,
+      "q": "Mit csinál az 'npm run build' parancs tipikusan egy frontend projektben?",
+      "a": [
+        "a) Elindítja a dev szervert",
+        "b) Production buildet készít (minifikál, bundle-öl, optimalizál)",
+        "c) Csak teszteket futtat",
+        "d) Törli a node_modules mappát"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 300,
+      "q": "Mit jelent az 'environment' fogalma frontend build rendszernél (pl. Angular environment.ts)?",
+      "a": [
+        "a) CSS változók gyűjteménye",
+        "b) Külön konfigurációk (dev, prod, staging) URL-ekkel, flag-ekkel, stb.",
+        "c) JavaScript futtatási idő mérése",
+        "d) Browser verzió"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 301,
+      "q": "Mit jelent a 'linting' fogalma JS/CSS kódban?",
+      "a": [
+        "a) Kód formázása",
+        "b) Szabály-alapú statikus elemzés, amely hibákat, rossz gyakorlatokat jelez",
+        "c) Unit tesztek futtatása",
+        "d) Bundle méret mérése"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 302,
+      "q": "Mire való az ESLint egy JS/TS projektben?",
+      "a": [
+        "a) CSS minifikálására",
+        "b) JavaScript/TypeScript lintelésére, stílus- és hibaszabályok ellenőrzésére",
+        "c) HTML validálására",
+        "d) HTTP logok elemzésére"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 303,
+      "q": "Mit jelent a 'prettier' használata egy frontend kódbázisban?",
+      "a": [
+        "a) Statikus típusellenőrzést",
+        "b) Automatikus kódformázást konzisztens szabályok szerint",
+        "c) Unit teszt futtatást",
+        "d) Bundle optimalizálást"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 304,
+      "q": "Mit jelent az 'API mocking' a fejlesztés során?",
+      "a": [
+        "a) A valódi API teljes törlése",
+        "b) Kitalált vagy rögzített válaszokat adó fake API használata fejlesztéskor vagy tesztben",
+        "c) Csak HTTP fejlécek tesztelése",
+        "d) A kliens kód nélkülözése"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 305,
+      "q": "Mit jelent a 'contract testing' frontend-backend között?",
+      "a": [
+        "a) Csak a backend tesztelése",
+        "b) Annak ellenőrzése, hogy a kliens és szerver egyetért-e a JSON struktúrákban (schema, mezők, típusok)",
+        "c) Csak UI teszt",
+        "d) Csak load teszt"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 306,
+      "q": "Mit jelent a 'feature flag' használata frontendben?",
+      "a": [
+        "a) CSS flag, ami stílust kapcsol",
+        "b) Boolean vagy konfigurációs kapcsoló, amely bekapcsolhat vagy elrejthet funkciókat futásidőben",
+        "c) HTTP header",
+        "d) Git branch"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 307,
+      "q": "Mit jelent a 'dark mode' implementálása frontendben?",
+      "a": [
+        "a) Csak a háttér feketére váltása",
+        "b) Olyan téma támogatása, ahol színek, háttér, kontraszt sötét környezetre optimalizált",
+        "c) Csak a JS kikapcsolása",
+        "d) Csak mobilon működik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 308,
+      "q": "Mit jelent a 'responsive images' fogalma (srcset, sizes)?",
+      "a": [
+        "a) Minden eszközre ugyanaz a kép",
+        "b) Különböző felbontású/arányú képek megadása, hogy a böngésző válasszon optimálisat",
+        "c) Csak SVG használata",
+        "d) Képek tiltása mobilon"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 309,
+      "q": "Mit jelent a 'lazy route' Angularban?",
+      "a": [
+        "a) Lassan betöltődő route",
+        "b) Olyan modul, amelyet csak akkor töltünk be (loadChildren), amikor a felhasználó ténylegesen odanavigál",
+        "c) Csak fejlesztéskor használt route",
+        "d) Nem támogatott funkció"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 310,
+      "q": "Mit csinál a 'ng add @angular/pwa' parancs egy Angular projektben?",
+      "a": [
+        "a) Semmit",
+        "b) PWA támogatást ad: Service Worker, manifest, alap PWA konfiguráció",
+        "c) Törli a Service Worker-t",
+        "d) Csak CSS-t módosít"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 311,
+      "q": "Mit jelent a 'ahead-of-time' (AOT) compilation Angularban?",
+      "a": [
+        "a) Futásidőben történő template fordítás",
+        "b) Build időben történt template és metadata fordítás, gyorsabb futást és kisebb bundle-t eredményezve",
+        "c) Nem használ template-et",
+        "d) Csak dev módban használatos"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 312,
+      "q": "Mit jelent az 'OnPush' change detection strategy Angularban?",
+      "a": [
+        "a) Minden ticknél minden komponenst ellenőriz",
+        "b) Csak input referenciaváltozás, event vagy observable emission esetén futtat change detection-t, így optimalizál",
+        "c) Soha nem frissít",
+        "d) Csak SSR-nél elérhető"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 313,
+      "q": "Mit jelent a 'trackBy' használata *ngFor esetén?",
+      "a": [
+        "a) Semmit nem befolyásol",
+        "b) Segít Angularnak az elemek azonosításában, így kevesebb DOM manipuláció történik listafrissítéskor",
+        "c) CSS-t módosít",
+        "d) HTTP hívást indít"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 314,
+      "q": "Mit jelent az, hogy egy observable 'cold' vagy 'hot'?",
+      "a": [
+        "a) Hőmérsékletet mér",
+        "b) Cold: minden subscription új producer; Hot: producer független a subscriberektől, megosztott adatfolyam",
+        "c) Cold: csak hibát ad; Hot: csak értékeket",
+        "d) Nincs ilyen fogalom"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 315,
+      "q": "Mit csinál a 'shareReplay(1)' RxJS operátor típikusan HTTP hívásoknál?",
+      "a": [
+        "a) Nem csinál semmit",
+        "b) Megosztja az observable-t több subscriber között, és visszajátssza az utolsó értéket új subscribereknek (cache hatás)",
+        "c) Minden értéket eldob",
+        "d) Csak hibákat továbbít"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 316,
+      "q": "Mit jelent az 'unsubscribe' fontossága Angular komponensekben?",
+      "a": [
+        "a) Nincs jelentősége",
+        "b) Ha nem iratkozunk le subscriptionökről (pl. ngOnDestroy-ban), memória- és teljesítményproblémák, memory leak-ek léphetnek fel",
+        "c) Csak dev módban szükséges",
+        "d) Automatikus minden esetben"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 317,
+      "q": "Mit csinál az 'ng g c my-component' parancs Angular CLI-ben?",
+      "a": [
+        "a) Új modult generál",
+        "b) Új komponenst generál (fájlokkal, deklarációval)",
+        "c) Új service-t generál",
+        "d) Törli a komponenst"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 318,
+      "q": "Mit csinál az 'ng g s my-service' parancs?",
+      "a": [
+        "a) Komponenst generál",
+        "b) Új service-t generál TypeScript fájllal, @Injectable dekorátorral",
+        "c) Routingot hoz létre",
+        "d) Pipe-ot generál"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 319,
+      "q": "Mit jelent a 'tree-shakable providers' fogalma Angularban?",
+      "a": [
+        "a) Csak fában megjelenített komponensek",
+        "b) Olyan service-ek, amelyeket a build során ki lehet dobni, ha sehol nem használjuk (pl. providedIn: 'root')",
+        "c) Csak lazy modulokban működnek",
+        "d) Nem létezik ilyen"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 320,
+      "q": "Mit jelent az 'ngZone' szerepe Angularban?",
+      "a": [
+        "a) CSS zónák kezelése",
+        "b) A change detection triggerelése aszinkron események után",
+        "c) HTTP zóna kezelése",
+        "d) Nincs ilyen"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 321,
+      "q": "Mit csinál a 'firebase deploy' parancs egy Firebase projektben?",
+      "a": [
+        "a) Inicializálja a projektet",
+        "b) Feltölti a buildelt fájlokat és konfigurációkat a Firebase szolgáltatásaira (Hosting, Functions, stb.)",
+        "c) Törli a projektet",
+        "d) Csak lokális szervert indít"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 322,
+      "q": "Miért veszélyes, ha a Firestore szabály: allow read, write: if true;",
+      "a": [
+        "a) Nem veszélyes",
+        "b) Bárki, bárhonnan olvashat és írhat az adatbázisba, autentikáció nélkül",
+        "c) Csak adminok férnek hozzá",
+        "d) Csak lokális fejlesztésre hat"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 323,
+      "q": "Mit csinál a Firebase 'onSnapshot' (Realtime listener) Firestore-ban?",
+      "a": [
+        "a) Egyszeri lekérdezést végez",
+        "b) Folyamatosan figyeli a dokumentum/kollekció változását, és callbacket hív minden módosításnál",
+        "c) Törli a dokumentumot",
+        "d) Csak offline módban működik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 324,
+      "q": "Mit jelent a 'offline persistence' Firestore esetén kliens oldalon?",
+      "a": [
+        "a) Nincs hálózati kapcsolat",
+        "b) A kliens cache-eli az adatokat, offline módban is tud olvasni/írni, majd szinkronizál",
+        "c) Csak read-only",
+        "d) Csak szerveren érhető el"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 325,
+      "q": "Mit jelent az 'index' Firestore-ban?",
+      "a": [
+        "a) HTML index.html fájl",
+        "b) Olyan adatstruktúra, ami gyorsítja a lekérdezéseket adott mező(k) szerint",
+        "c) CSS index",
+        "d) Nem használ indexeket"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 326,
+      "q": "Mit jelent a 'composite index' Firestore-ban?",
+      "a": [
+        "a) Egyetlen mezőn lévő index",
+        "b) Több mező kombinációjára épített index összetett lekérdezésekhez",
+        "c) Nem használatos",
+        "d) Csak timestamp mezőre"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 327,
+      "q": "Mit jelent a 'rate limiting' egy API esetén?",
+      "a": [
+        "a) Az API sebességének növelése",
+        "b) Meghatározott időn belül engedélyezett kérések számának korlátozása",
+        "c) A válasz méretének csökkentése",
+        "d) HTTP/2 tiltása"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 328,
+      "q": "Mit jelent a 'backoff' stratégia (pl. exponential backoff) hálózati hibáknál?",
+      "a": [
+        "a) Azonnali újrapróbálkozás sokszor",
+        "b) Hibák után növekvő várakozási idővel történő újrapróbálkozás",
+        "c) Soha nem próbáljuk újra",
+        "d) Csak mobilon használatos"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 329,
+      "q": "Mit jelent a 'graceful degradation' elve?",
+      "a": [
+        "a) Modern feature-ökkel kezdünk, és régebbi környezetekben elfogadhatóan, de nem teljesen ugyanúgy működik az oldal",
+        "b) Csak régi böngészőkre fejlesztünk",
+        "c) Nincs CSS",
+        "d) Nem támogat mobil eszközöket"
+      ],
+      "correct": "a"
+    },
+    {
+      "index": 330,
+      "q": "Mit jelent a 'polyfill' fogalma?",
+      "a": [
+        "a) CSS reset",
+        "b) Olyan JS kód, amely új API-k viselkedését emulálja régi böngészőkben",
+        "c) HTML komment",
+        "d) CSRF token"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 331,
+      "q": "Mit csinál a 'Object.freeze(obj)' JS-ben?",
+      "a": [
+        "a) Teljesen törli az objektumot",
+        "b) Megakadályozza, hogy új property-ket adjunk hozzá, vagy meglévőket módosítsunk/töröljünk (shallow szinten)",
+        "c) Mély másolatot készít",
+        "d) Csak konzolban működik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 332,
+      "q": "Mit jelent a 'shallow equality' (=== két objektumnál)?",
+      "a": [
+        "a) A property-ket hasonlítja össze",
+        "b) A referenciát hasonlítja össze, nem a tartalmat",
+        "c) Mély összehasonlítást jelent",
+        "d) Nincs equality objektumokra"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 333,
+      "q": "Mit ad vissza: {} === {} JS-ben?",
+      "a": [
+        "a) true",
+        "b) false",
+        "c) Error",
+        "d) undefined"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 334,
+      "q": "Mit jelent az 'immutability' fogalma állapotkezelésnél (pl. Redux, NgRx)?",
+      "a": [
+        "a) Az állapot objektumok közvetlen módosítása",
+        "b) Az állapot csak új objektum létrehozásával változik, a régiek érintetlenek maradnak",
+        "c) Az állapot soha nem változik",
+        "d) Csak backend fogalom"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 335,
+      "q": "Mit jelent a 'single source of truth' állapotkezelésnél?",
+      "a": [
+        "a) Több különböző állapotforrás használata",
+        "b) Egy központi állapot (store), ahonnan minden komponens olvas",
+        "c) Csak lokális state használata",
+        "d) Nincs globális állapot"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 336,
+      "q": "Mit jelent a 'pure component' fogalma (pl. React/Angular világában)?",
+      "a": [
+        "a) Komponens, amely mindig újrarenderel",
+        "b) Komponens, amely ugyanarra a prop/state bemenetre mindig ugyanazt a kimenetet adja, és nem használ mellékhatást a renderben",
+        "c) Komponens, amely random adatot jelenít meg",
+        "d) Csak CSS-t tartalmaz"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 337,
+      "q": "Mit jelent az 'SSR-friendly' kód írása?",
+      "a": [
+        "a) window/document közvetlen használata mindenhol",
+        "b) Úgy írjuk a kódot, hogy szerveren (Node környezetben) is fusson, ahol nincs DOM",
+        "c) Csak böngészőben fut",
+        "d) Csak CSS kódot írunk"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 338,
+      "q": "Mit csinál a 'navigator.userAgent' lekérdezése?",
+      "a": [
+        "a) Visszaadja a felhasználó nevét",
+        "b) Visszaadja a böngésző azonosító stringjét (user agent), ami tartalmazhat OS, böngésző verzió info-t",
+        "c) HTTP kérést küld",
+        "d) Leállítja a böngészőt"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 339,
+      "q": "Mit csinál a 'matchMedia(\"(prefers-color-scheme: dark)\")'?",
+      "a": [
+        "a) Megmondja, hogy a felhasználó rendszerszintű dark mode beállítást használ-e",
+        "b) Mindig false",
+        "c) CSS-t módosít",
+        "d) Mobilon nem működik"
+      ],
+      "correct": "a"
+    },
+    {
+      "index": 340,
+      "q": "Mit jelent a 'viewport metatag' helyes használata mobilon?",
+      "a": [
+        "a) &lt;meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\"&gt;",
+        "b) &lt;meta viewport=\"mobile\"&gt;",
+        "c) &lt;meta name=\"mobile\" content=\"yes\"&gt;",
+        "d) Nincs rá szükség"
+      ],
+      "correct": "a"
+    },
+    {
+      "index": 341,
+      "q": "Mit jelent az 'accessibility tree' fogalma?",
+      "a": [
+        "a) CSS struktúra",
+        "b) A DOM-ból és ARIA infókból felépülő fa, amit a segédeszközök használnak",
+        "c) HTTP válaszfa",
+        "d) Git branch fa"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 342,
+      "q": "Mit csinál a 'tabindex=\"-1\"' egy fókuszálható elemen?",
+      "a": [
+        "a) Teljesen fókuszálhatatlanná teszi",
+        "b) A Tab sorrendből kihagyja, de programozottan (focus()) fókuszálható marad",
+        "c) A Tab első elemévé teszi",
+        "d) Nincs hatása"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 343,
+      "q": "Mit jelent a 'keyboard-only' felhasználók támogatása?",
+      "a": [
+        "a) Csak egeret használunk",
+        "b) Az UI-t úgy alakítjuk ki, hogy csak billentyűzettel is teljesen bejárható legyen (fókusz, Enter/Space, stb.)",
+        "c) Csak mobilra optimalizálunk",
+        "d) Mindig touch eseményeket használunk"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 344,
+      "q": "Mit jelent a 'responsive breakpoint' fogalma?",
+      "a": [
+        "a) A kódhiba breakpoint a debuggerben",
+        "b) Az a viewport szélesség, ahol layout váltás történik (pl. mobil/tablet/desktop)",
+        "c) A CSS maximum mérete",
+        "d) A JS futás leállítása"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 345,
+      "q": "Mit jelent az 'object-fit: cover;' egy img vagy video elemen?",
+      "a": [
+        "a) A tartalom torzítva lesz",
+        "b) A tartalom úgy tölti ki a dobozt, hogy megtartja az arányt és felesleget levág",
+        "c) Mindig teljes képet mutat üres sávokkal",
+        "d) Nincs hatása"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 346,
+      "q": "Mit csinál az 'aspect-ratio' CSS tulajdonság?",
+      "a": [
+        "a) Semmit",
+        "b) A szélesség/magasság arányt rögzíti (pl. 16/9) layout számításkor",
+        "c) A betűméretet állítja",
+        "d) A margót módosítja"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 347,
+      "q": "Mit jelent az 'object destructuring' paraméterlistában (pl. function foo({a,b}) {})?",
+      "a": [
+        "a) Nem enged paramétert",
+        "b) A hívott objektum a és b property-jét közvetlen paraméterként elérhetővé teszi a függvényen belül",
+        "c) Hibát dob mindig",
+        "d) Csak TypeScriptben működik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 348,
+      "q": "Mit jelent a 'optional chaining' (?.) operátor JS-ben?",
+      "a": [
+        "a) Nem szabványos",
+        "b) Ha a bal oldali érték null vagy undefined, nem dob hibát, hanem undefined-et ad vissza (pl. user?.address?.city)",
+        "c) Mindig hibát dob",
+        "d) Stringet ad vissza"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 349,
+      "q": "Mit jelent a 'nullish coalescing' (??) operátor JS-ben?",
+      "a": [
+        "a) Mindig a bal oldali értéket adja vissza",
+        "b) Ha a bal oldal null vagy undefined, a jobb oldali értéket adja vissza, különben a balt",
+        "c) Ugyanaz, mint a ||",
+        "d) Nem létezik ilyen operátor"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 350,
+      "q": "Mit ad vissza: null ?? 'alapértelmezett'?",
+      "a": [
+        "a) null",
+        "b) 'alapértelmezett'",
+        "c) undefined",
+        "d) Error"
+      ],
+      "correct": "b"
+    }
 ]
