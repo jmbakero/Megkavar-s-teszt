@@ -3848,5 +3848,1655 @@
         "d) Error"
       ],
       "correct": "b"
+    },
+    {
+      "index": 351,
+      "q": "Mit jelent a closure JavaScriptben?",
+      "a": [
+        "a) Egy lezárt fájl a memóriában",
+        "b) Egy függvény hozzáfér a külső lexicalis scope változóihoz a külső függvény lefutása után is",
+        "c) Egy függvény automatikus memoizálása",
+        "d) Egy Promise lezárása"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 352,
+      "q": "Miért okozhat hibás eredményt, ha ciklusban var-ral létrehozott callbackek ugyanazt a változót használják?",
+      "a": [
+        "a) Mert a var blokk-scope-os",
+        "b) Mert a callbackek ugyanazt a függvény-scope-os változót láthatják",
+        "c) Mert a callbackek nem futhatnak ciklusban",
+        "d) Mert a var csak strict mode-ban működik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 353,
+      "q": "Mit jelent, hogy az arrow function lexikálisan örökli a this értéket?",
+      "a": [
+        "a) Mindig a window a this",
+        "b) A this a létrehozás helyének környezetéből származik",
+        "c) Az arrow functionnek mindig null a this-e",
+        "d) Csak classban használható this-szel"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 354,
+      "q": "Mit ad vissza a typeof null JavaScriptben?",
+      "a": [
+        "a) null",
+        "b) object",
+        "c) undefined",
+        "d) empty"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 355,
+      "q": "Mi a shallow copy legnagyobb veszélye objektumoknál?",
+      "a": [
+        "a) Nem lehet property-ket olvasni",
+        "b) A beágyazott objektumok referenciái megosztottak maradhatnak",
+        "c) JSON-ná alakítja az objektumot",
+        "d) Mindig deep copy lesz belőle"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 356,
+      "q": "Mi jellemző a Promise.then callbackekre az event loop szempontjából?",
+      "a": [
+        "a) Macrotask queue-ba kerülnek",
+        "b) Microtask queue-ba kerülnek",
+        "c) Szinkron futnak",
+        "d) Csak timer után futnak"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 357,
+      "q": "Mit csinál a Promise.all, ha az egyik input Promise rejectelődik?",
+      "a": [
+        "a) Figyelmen kívül hagyja a hibát",
+        "b) Azonnal rejectelődik az első hibával",
+        "c) Mindig resolve-ol tömbbel",
+        "d) Újraindítja az összes Promise-t"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 358,
+      "q": "Mit jelent a hoisting var esetén?",
+      "a": [
+        "a) A deklaráció felkerül a scope elejére, de az értékadás nem",
+        "b) A változó nem érhető el deklaráció előtt",
+        "c) A var csak blokk-scope-ban él",
+        "d) A var nem hoistolódik"
+      ],
+      "correct": "a"
+    },
+    {
+      "index": 359,
+      "q": "Miért dob ReferenceError-t a temporal dead zone let vagy const esetén?",
+      "a": [
+        "a) Mert a változó nem kerül memóriába",
+        "b) Mert a deklaráció előtti elérés tiltott a blokkban",
+        "c) Mert a let globális",
+        "d) Mert a const csak objektum lehet"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 360,
+      "q": "Mi a debounce tipikus célja egy inputmező keresésénél?",
+      "a": [
+        "a) Minden billentyűre azonnal API hívást indít",
+        "b) Csökkenti a túl gyakori callbackfutást, és csak rövid nyugalmi idő után hív",
+        "c) A DOM-ot üríti",
+        "d) Megismétli a legutóbbi kérést"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 361,
+      "q": "Mi a throttle tipikus célja scroll eseményeknél?",
+      "a": [
+        "a) Megakadályozza a CSS betöltését",
+        "b) Korlátozza, milyen gyakran futhat az eseménykezelő",
+        "c) Minden scroll eventet összevon JSON-ná",
+        "d) Teljesen letiltja a scrollt"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 362,
+      "q": "Melyik metódus ad vissza új tömböt az eredeti tömb módosítása nélkül?",
+      "a": [
+        "a) splice",
+        "b) map",
+        "c) sort",
+        "d) reverse"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 363,
+      "q": "Melyik Array metódus alkalmas leginkább egy tömb elemeinek egyetlen értékké aggregálására?",
+      "a": [
+        "a) filter",
+        "b) reduce",
+        "c) some",
+        "d) join"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 364,
+      "q": "Mit jelent az immutability állapotkezelésnél?",
+      "a": [
+        "a) Az állapotot mindig helyben módosítjuk",
+        "b) Új állapotobjektumot hozunk létre a régi közvetlen módosítása helyett",
+        "c) Az állapot nem változhat soha",
+        "d) Csak backend fogalom"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 365,
+      "q": "Mit csinál az Object.freeze egy objektummal?",
+      "a": [
+        "a) Deep copy-t készít",
+        "b) Megakadályozza a shallow szintű módosítást, bővítést és törlést",
+        "c) JSON stringgé alakítja",
+        "d) Prototípust töröl"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 366,
+      "q": "Mi az optional chaining operátor (?.) fő előnye?",
+      "a": [
+        "a) Gyorsabbá teszi a hálózatot",
+        "b) Elkerüli a hibát, ha egy köztes property null vagy undefined",
+        "c) Csak tömbökön működik",
+        "d) Automatikus default értéket ad mindig"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 367,
+      "q": "Mit ad vissza: null ?? \"default\" ?",
+      "a": [
+        "a) null",
+        "b) default",
+        "c) false",
+        "d) undefined"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 368,
+      "q": "Mi a különbség a == és a === között?",
+      "a": [
+        "a) Nincs különbség",
+        "b) A === típuskonverzió nélkül vizsgál szigorú egyenlőséget",
+        "c) A == mindig biztonságosabb",
+        "d) A === csak számokra működik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 369,
+      "q": "Mit jelent a prototype chain JavaScriptben?",
+      "a": [
+        "a) A CSS öröklődés megfelelője",
+        "b) Az objektumok prototípus-alapú tulajdonságfeloldási lánca",
+        "c) Promise láncolás",
+        "d) A DOM fa másik neve"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 370,
+      "q": "Miért lehet drága egy nagy DOM fa frissítése?",
+      "a": [
+        "a) Mert a HTML-t újra kell fordítani gépi kódra",
+        "b) Mert stílus újraszámítás, layout és paint költség jelentkezhet sok elemen",
+        "c) Mert a DOM nem cache-elhető",
+        "d) Mert minden DOM változás hálózati kérés"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 371,
+      "q": "Mit jelent a reflow a böngésző renderelésében?",
+      "a": [
+        "a) A JavaScript újrafuttatását",
+        "b) Az elemek méretének és pozíciójának újraszámítását",
+        "c) A cache törlését",
+        "d) A CSS fájl letöltését"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 372,
+      "q": "Miért preferált animációknál gyakran a transform és az opacity használata?",
+      "a": [
+        "a) Mert ezek mindig új layoutot számolnak",
+        "b) Mert sok esetben kevesebb layout és paint költséggel járhatnak",
+        "c) Mert csak ezek szabványosak",
+        "d) Mert a többi property tiltott"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 373,
+      "q": "Mit csinál a requestAnimationFrame?",
+      "a": [
+        "a) HTTP kérést ütemez",
+        "b) A következő repaint előtt futtat callbacket animációhoz igazítva",
+        "c) Promise-t bont fel",
+        "d) CSS változót állít be"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 374,
+      "q": "Mi a különbség a localStorage és a sessionStorage között?",
+      "a": [
+        "a) Nincs különbség",
+        "b) A sessionStorage jellemzően tab-élettartamú, a localStorage tartósabb",
+        "c) A localStorage csak szerveroldalon van",
+        "d) A sessionStorage végtelen méretű"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 375,
+      "q": "Mi az XSS támadás lényege?",
+      "a": [
+        "a) SQL lekérdezés módosítása",
+        "b) Rosszindulatú script futtatása a felhasználó böngészőjében",
+        "c) Kizárólag DDOS",
+        "d) Cache törlése"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 376,
+      "q": "Miért segíthet a CSP az XSS ellen?",
+      "a": [
+        "a) Mert tömöríti a JavaScriptet",
+        "b) Mert korlátozza, honnan tölthetők be és futtathatók erőforrások",
+        "c) Mert kikapcsolja a DOM-ot",
+        "d) Mert titkosítja a HTML-t"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 377,
+      "q": "Mi a SameSite cookie beállítás egyik fő célja?",
+      "a": [
+        "a) A cookie méretének növelése",
+        "b) A cross-site kéréskor küldött cookie viselkedésének szabályozása, CSRF csökkentésére",
+        "c) A cookie titkosítása",
+        "d) A sessionStorage kiváltása"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 378,
+      "q": "Mit jelent a CSRF rövidítés?",
+      "a": [
+        "a) Client Side Render Flow",
+        "b) Cross-Site Request Forgery",
+        "c) Cascading Style Render Format",
+        "d) Component State Reset Function"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 379,
+      "q": "Melyik HTTP státuszkód jelzi, hogy hitelesítés szükséges vagy hibás?",
+      "a": [
+        "a) 200",
+        "b) 401",
+        "c) 403",
+        "d) 500"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 380,
+      "q": "Mi a tipikus különbség a 401 és a 403 között?",
+      "a": [
+        "a) A 401 szerverhiba, a 403 klienshiba",
+        "b) A 401 autentikációs probléma, a 403 tiltott hozzáférés",
+        "c) A 403 mindig átirányítás",
+        "d) Nincs különbség"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 381,
+      "q": "Mit jelent a CORS a böngészőben?",
+      "a": [
+        "a) CSS optimalizálást",
+        "b) Cross-origin erőforrás-hozzáférés szabályozását",
+        "c) Képtömörítést",
+        "d) Session kezelést"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 382,
+      "q": "Mi a preflight OPTIONS kérés szerepe CORS esetén?",
+      "a": [
+        "a) A HTML validálása",
+        "b) Előzetesen ellenőrzi, hogy a szerver engedi-e a tényleges cross-origin kérést",
+        "c) A cookie-k törlése",
+        "d) A DOM újraépítése"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 383,
+      "q": "Mi a semantic HTML egyik fő előnye?",
+      "a": [
+        "a) Rövidebb CSS minden esetben",
+        "b) Jobb hozzáférhetőség és érthetőbb szerkezet segédeszközöknek és keresőknek",
+        "c) Nem kell JavaScript",
+        "d) Nem kell meta tag"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 384,
+      "q": "Mikor indokolt ARIA használata?",
+      "a": [
+        "a) Minden elemre automatikusan",
+        "b) Ha a natív HTML szemantika nem elég az akadálymentes működéshez",
+        "c) Csak img tagekre",
+        "d) Csak Angularban"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 385,
+      "q": "Miért nem jó csak placeholderrel címkézni egy inputot?",
+      "a": [
+        "a) Mert a placeholder túl sötét",
+        "b) Mert használhatósági és hozzáférhetőségi szempontból nem helyettesíti a labelt",
+        "c) Mert a böngészők tiltják",
+        "d) Mert SEO hibát okoz minden esetben"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 386,
+      "q": "Mit segít az alt attribútum egy tartalmi képnél?",
+      "a": [
+        "a) A hálózati gyorsítást",
+        "b) A kép jelentésének közlését screen reader és hibás betöltés esetén",
+        "c) A CSS öröklést",
+        "d) A script futtatást"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 387,
+      "q": "Miért fontos a látható fókuszjelzés?",
+      "a": [
+        "a) Mert szebbé teszi az oldalt",
+        "b) Mert segíti a billentyűzetes navigációt használókat",
+        "c) Mert csökkenti a bundle méretet",
+        "d) Mert csak mobilon kötelező"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 388,
+      "q": "Miért problémás, ha hibát csak színnel jelzünk?",
+      "a": [
+        "a) Mert nő a HTTP kérések száma",
+        "b) Mert nem mindenki tudja megkülönböztetni a színeket, és nem elég informatív",
+        "c) Mert a CSS ezt tiltja",
+        "d) Mert csak nyomtatásnál működik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 389,
+      "q": "Mit jelent a CSS specifikusság?",
+      "a": [
+        "a) A CSS fájl méretét",
+        "b) A szabályt, ami ütközéskor eldönti, melyik selector érvényesül",
+        "c) A renderelési sebességet",
+        "d) A media query számát"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 390,
+      "q": "Melyik selector a specifikusabb?",
+      "a": [
+        "a) .card .title",
+        "b) #app .title",
+        "c) h1",
+        "d) *"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 391,
+      "q": "Mit eredményez a box-sizing: border-box?",
+      "a": [
+        "a) A width nem tartalmazza a paddinget",
+        "b) A width és height tartalmazza a paddinget és a border-t",
+        "c) A margin is belekerül a widthbe",
+        "d) A border eltűnik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 392,
+      "q": "Mikor előnyös inkább a CSS Grid, mint a Flexbox?",
+      "a": [
+        "a) Egyetlen tengely menti igazításnál",
+        "b) Kétdimenziós, sor- és oszlopalapú layoutnál",
+        "c) Inline szöveg formázásánál",
+        "d) Gomb hover kezelésnél"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 393,
+      "q": "Mi a Flexbox fő erőssége?",
+      "a": [
+        "a) Kétdimenziós táblázatos layout",
+        "b) Egydimenziós elrendezés és igazítás tengelyek mentén",
+        "c) HTML validálás",
+        "d) SVG animációk"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 394,
+      "q": "Mit jelent a mobile-first megközelítés?",
+      "a": [
+        "a) Először desktop nézetre tervezünk",
+        "b) Először kisebb kijelzőkre tervezünk, majd onnan bővítünk",
+        "c) Az oldal csak mobilon működik",
+        "d) Nem használunk media queryt"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 395,
+      "q": "Miért hasznos képeknél width és height vagy aspect-ratio megadása?",
+      "a": [
+        "a) Mert csak így tölthetők be",
+        "b) Mert segít megelőzni a layout shiftet",
+        "c) Mert gyorsítja a JavaScriptet",
+        "d) Mert kiváltja a lazy loadingot"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 396,
+      "q": "Mit jelent a CLS metrika?",
+      "a": [
+        "a) Critical Layout Script",
+        "b) Cumulative Layout Shift, a váratlan elmozdulások mértéke",
+        "c) Client Load Speed",
+        "d) CSS Loading Size"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 397,
+      "q": "Mi a lazy loading fő előnye képeknél?",
+      "a": [
+        "a) Minden képet hamarabb tölt be",
+        "b) Csökkenti a kezdeti betöltési költséget az offscreen képek késleltetésével",
+        "c) Kikapcsolja a cache-t",
+        "d) Eltávolítja a DOM-ot"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 398,
+      "q": "Mit jelent a tree shaking?",
+      "a": [
+        "a) DOM elemek törlése",
+        "b) Nem használt kód eltávolítása a bundle-ból",
+        "c) CSS reset",
+        "d) HTTP redirect"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 399,
+      "q": "Mi a code splitting egyik fő előnye?",
+      "a": [
+        "a) Mindent egy fájlba rak",
+        "b) Csökkentheti az első betöltéskor szükséges JavaScript mennyiségét",
+        "c) Megszünteti a hálózati kéréseket",
+        "d) Csak CSS-nél értelmezhető"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 400,
+      "q": "Mit csinál a defer attribútum script tageknél?",
+      "a": [
+        "a) Blokkolja a HTML parse-ot a futásig",
+        "b) Párhuzamosan letölti a scriptet, és a DOM parse után futtatja",
+        "c) Csak async scriptre jó",
+        "d) JSON-ná alakítja a scriptet"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 401,
+      "q": "Mi a különbség a DOMContentLoaded és a load esemény között?",
+      "a": [
+        "a) Nincs különbség",
+        "b) A DOMContentLoaded a DOM felépülésekor, a load az összes erőforrás után fut",
+        "c) A load előbb fut",
+        "d) A DOMContentLoaded csak CSS-re vonatkozik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 402,
+      "q": "Mit ad vissza a fetch egy 404 HTTP válasznál tipikusan?",
+      "a": [
+        "a) Mindig rejectet",
+        "b) Teljesült Promise-t Response objektummal, ahol az ok false lehet",
+        "c) Nullt",
+        "d) Observable-t"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 403,
+      "q": "Miért kell fetch után gyakran ellenőrizni a response.ok értéket?",
+      "a": [
+        "a) Mert különben nincs JSON parse",
+        "b) Mert a HTTP hibák nem mindig okoznak Promise rejectet",
+        "c) Mert a böngésző tiltja a hibás státuszt",
+        "d) Mert a response.ok csak POST-nál létezik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 404,
+      "q": "Mi a különbség a PUT és a PATCH között REST szemléletben?",
+      "a": [
+        "a) A PUT részleges módosítás, a PATCH teljes csere",
+        "b) A PUT gyakran teljes frissítésként értelmezett, a PATCH részleges módosításra szolgál",
+        "c) Nincs különbség",
+        "d) A PATCH csak fájlfeltöltésre jó"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 405,
+      "q": "Mit jelent az idempotens HTTP művelet?",
+      "a": [
+        "a) Minden hívás más állapotot eredményez",
+        "b) Többszöri azonos hívás ugyanarra az állapotra vezethet, mint egyszeri",
+        "c) Csak GET lehet ilyen",
+        "d) Csak cache-re vonatkozik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 406,
+      "q": "Miért hasznos az ETag vagy Last-Modified alapú validáció?",
+      "a": [
+        "a) Mert mindig teljes új letöltést kényszerít",
+        "b) Mert csökkentheti a felesleges adatletöltést változatlan erőforrásnál",
+        "c) Mert kikapcsolja a szerver cache-t",
+        "d) Mert csak videóknál működik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 407,
+      "q": "Mit jelent a dependency injection Angularban?",
+      "a": [
+        "a) A komponens mindig maga hozza létre a service-t new-val",
+        "b) A keretrendszer beadja a szükséges függőségeket a konstruktorba",
+        "c) A CSS importálását",
+        "d) A route automatikus átírását"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 408,
+      "q": "Mit jelent az @Injectable({ providedIn: \"root\" })?",
+      "a": [
+        "a) Minden komponens új példányt kap",
+        "b) A service root szinten regisztrált, tipikusan singletonként használható",
+        "c) Nem lehet injektálni",
+        "d) Csak tesztben működik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 409,
+      "q": "Mit ad vissza az Angular HttpClient.get tipikusan?",
+      "a": [
+        "a) Promise-t",
+        "b) Observable-t",
+        "c) EventEmittert",
+        "d) HTML stringet"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 410,
+      "q": "Miért lehet memória-szivárgás egy Angular subscription?",
+      "a": [
+        "a) Mert a CSS betöltve marad",
+        "b) Mert a komponens megszűnése után is élhet az adatfolyam, ha nincs lezárás vagy leiratkozás",
+        "c) Mert az Observable szinkron",
+        "d) Mert a DOM automatikusan duplikálódik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 411,
+      "q": "Mire való az ngOnDestroy hook?",
+      "a": [
+        "a) Komponens létrehozására",
+        "b) Erőforrások felszabadítására és cleanupra a komponens megszűnésekor",
+        "c) Template fordítására",
+        "d) Route guard létrehozására"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 412,
+      "q": "Mit jelent az OnPush change detection strategy?",
+      "a": [
+        "a) Minden változásnál mindent újraellenőriz",
+        "b) Szűkíti a change detection futását tipikusan input referencia-változásra és explicit triggerekre",
+        "c) Kikapcsolja a DOM-ot",
+        "d) Csak FormsModule-lal működik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 413,
+      "q": "Miért hasznos a trackBy *ngFor esetén?",
+      "a": [
+        "a) Mert kötelező a fordításhoz",
+        "b) Mert segít stabilan azonosítani listelemeket és csökkenti a felesleges DOM újraépítést",
+        "c) Mert gyorsítja a CSS-t",
+        "d) Mert csak Firebase-hez kell"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 414,
+      "q": "Mi a fő különbség a template-driven és a reactive formok között?",
+      "a": [
+        "a) Nincs különbség",
+        "b) A reactive form explicit, TypeScript-centrikus modellre épít, a template-driven inkább template fókuszú",
+        "c) A template-driven csak backenddel működik",
+        "d) A reactive form nem validálható"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 415,
+      "q": "Miért előnyös összetett űrlapoknál a reactive form?",
+      "a": [
+        "a) Mert nincs szükség validációra",
+        "b) Mert könnyebb explicit validációt, dinamikus struktúrát és állapotkezelést megvalósítani",
+        "c) Mert kevesebb HTML-t tilt meg",
+        "d) Mert csak kis formokra való"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 416,
+      "q": "Mit csinál egy route guard Angularban?",
+      "a": [
+        "a) CSS szabályokat véd",
+        "b) Dönt arról, hogy egy route aktiválható vagy elhagyható-e bizonyos feltételekkel",
+        "c) HTML-t minifikál",
+        "d) Adatbázist indexel"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 417,
+      "q": "Miért hasznos a lazy loading Angular route-oknál?",
+      "a": [
+        "a) Mert mindent egyszerre tölt be",
+        "b) Mert csökkentheti az initial bundle méretét és gyorsíthatja az első betöltést",
+        "c) Mert kiváltja a routingot",
+        "d) Mert csak SSR-rel működik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 418,
+      "q": "Mit jelent az SSR Angular környezetben?",
+      "a": [
+        "a) Single Script Rendering",
+        "b) Server-Side Rendering, ahol a HTML első körben szerveroldalon készül",
+        "c) Secure Service Routing",
+        "d) State Sync Rendering"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 419,
+      "q": "Mi lehet az SSR egyik előnye?",
+      "a": [
+        "a) Rosszabb first paint",
+        "b) Gyorsabb első tartalom-megjelenés és jobb SEO bizonyos esetekben",
+        "c) Kevesebb HTML",
+        "d) Nem kell kliensoldali JS"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 420,
+      "q": "Mit csinál a switchMap gyorsan ismétlődő keresési kéréseknél?",
+      "a": [
+        "a) Minden korábbi inner streamet megtart",
+        "b) Az új inner observable-ra vált, a korábbit eldobva",
+        "c) Mindig Promise-t ad vissza",
+        "d) Csak szinkron tömbön működik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 421,
+      "q": "Mi a fő különbség a mergeMap és a switchMap között?",
+      "a": [
+        "a) A mergeMap mindig törli a korábbi streamet",
+        "b) A mergeMap több belső streamet is futhat párhuzamosan, a switchMap jellemzően az utolsóra vált",
+        "c) Nincs különbség",
+        "d) A mergeMap csak HTTP-re van"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 422,
+      "q": "Mit csinál a catchError RxJS-ben?",
+      "a": [
+        "a) Fordítási hibát jelez",
+        "b) Lehetővé teszi a stream hibáinak kezelését és alternatív observable visszaadását",
+        "c) Törli a next értékeket",
+        "d) Mindig retry-zik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 423,
+      "q": "Miért lehet hasznos a shareReplay(1)?",
+      "a": [
+        "a) Mert mindig újrakéri az adatot",
+        "b) Mert megosztott streamet és az utolsó érték visszajátszását adhatja új subscribereknek",
+        "c) Mert törli a cache-t",
+        "d) Mert csak Subjecttel működik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 424,
+      "q": "Mi a különbség a cold és a hot observable között leegyszerűsítve?",
+      "a": [
+        "a) A cold mindig gyorsabb",
+        "b) A cold gyakran subscriberenként új producerrel indul, a hot megosztott forráshoz kötődhet",
+        "c) A hot csak WebSocket",
+        "d) Nincs különbség"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 425,
+      "q": "Miért nem elég önmagában a kliens oldali auth Firebase-ben adatvédelemre?",
+      "a": [
+        "a) Mert az auth felesleges",
+        "b) Mert a hozzáféréskontrollt backend vagy security rules oldalon is ki kell kényszeríteni",
+        "c) Mert a kliens nem tud tokent kezelni",
+        "d) Mert a Firebase nem tud szabályokat"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 426,
+      "q": "Miért veszélyes a Firestore szabály: allow read, write: if true; ?",
+      "a": [
+        "a) Mert csak adminoknak jó",
+        "b) Mert bárki olvashat és írhat autentikáció nélkül is",
+        "c) Mert lassítja a queryt",
+        "d) Mert csak lokálisan működik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 427,
+      "q": "Mit csinál a collectionData AngularFire-ben tipikusan?",
+      "a": [
+        "a) SQL lekérdezést futtat",
+        "b) Observable-ként adja vissza a kollekció dokumentumait",
+        "c) Törli a kollekciót",
+        "d) Csak egyszeri stringet ad"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 428,
+      "q": "Mi az offline persistence egyik előnye Firestore esetén?",
+      "a": [
+        "a) Teljesen kikapcsolja a hálózatot",
+        "b) Ideiglenes offline használatot és későbbi szinkronizációt tehet lehetővé",
+        "c) Minden hibát elrejt",
+        "d) Csak admin felhasználóknak működik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 429,
+      "q": "Miért fontos Firestore lekérdezéseknél az indexelés?",
+      "a": [
+        "a) Mert nélküle nem lehet dokumentumot írni",
+        "b) Mert támogatja a hatékony és bizonyos összetett lekérdezésekhez szükséges végrehajtást",
+        "c) Mert gyorsítja a CSS-t",
+        "d) Mert csak fejlesztői funkció"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 430,
+      "q": "Mit jelent a composite index Firestore-ban?",
+      "a": [
+        "a) Több mező kombinációjára létrehozott index",
+        "b) Több adatbázis egyesítése",
+        "c) Több projekt deployja egyszerre",
+        "d) Több auth provider összevonása"
+      ],
+      "correct": "a"
+    },
+    {
+      "index": 431,
+      "q": "Miért hasznos a virtual scrolling nagy listáknál?",
+      "a": [
+        "a) Mert minden elemet azonnal renderel",
+        "b) Mert egyszerre csak a látható vagy közeli elemeket rendereli",
+        "c) Mert megszünteti a hálózati kéréseket",
+        "d) Mert csak AngularJS-ben létezik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 432,
+      "q": "Miért lehet jobb UX a skeleton loader, mint a sima spinner?",
+      "a": [
+        "a) Mert több CPU-t használ",
+        "b) Mert előrevetíti a várható layoutot és javíthatja a perceived performance-ot",
+        "c) Mert mindig gyorsítja a backendet",
+        "d) Mert kiváltja a hibakezelést"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 433,
+      "q": "Mit jelent a perceived performance?",
+      "a": [
+        "a) Csak CPU időmérés",
+        "b) Az, ahogyan a felhasználó érzékeli az alkalmazás gyorsaságát",
+        "c) Kizárólag hálózati latency",
+        "d) A bundle size másik neve"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 434,
+      "q": "Miért lehet hasznos a content-visibility: auto?",
+      "a": [
+        "a) Mert minden offscreen elemet azonnal kirajzol",
+        "b) Mert csökkentheti offscreen tartalmak kezdeti renderköltségét",
+        "c) Mert kiváltja a lazy loadingot mindenre",
+        "d) Mert csak print stílusoknál működik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 435,
+      "q": "Mi a critical CSS lényege?",
+      "a": [
+        "a) A teljes CSS inline beégetése mindig",
+        "b) A kezdeti nézethez szükséges minimális stílus korai biztosítása",
+        "c) A CSS tömörítés tiltása",
+        "d) A JavaScript kiváltása"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 436,
+      "q": "Mit nevezünk render-blocking erőforrásnak?",
+      "a": [
+        "a) Olyan erőforrást, amely késleltetheti az első kirajzolást",
+        "b) Olyan képet, ami túl nagy",
+        "c) Olyan JSON-t, ami hibás",
+        "d) Olyan route-ot, ami védett"
+      ],
+      "correct": "a"
+    },
+    {
+      "index": 437,
+      "q": "Miért hasznos a font-display: swap?",
+      "a": [
+        "a) Mert teljesen eltünteti a fallback fontot",
+        "b) Mert gyorsabban láthatóvá teheti a szöveget fallback font használatával",
+        "c) Mert csökkenti a HTML méretét",
+        "d) Mert csak ikonfontokhoz jó"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 438,
+      "q": "Miért lehet hasznos a preconnect egy külső domainhez?",
+      "a": [
+        "a) Mert azonnal letölti az összes fájlt",
+        "b) Mert előkészíti a kapcsolatot és csökkentheti a késleltetést",
+        "c) Mert helyettesíti a DNS-t teljesen",
+        "d) Mert csak képeknél működik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 439,
+      "q": "Mit jelezhet a Lighthouse accessibility audit?",
+      "a": [
+        "a) Minden használhatósági problémát tökéletesen",
+        "b) Több gyakori hozzáférhetőségi hibát automatizáltan",
+        "c) Csak SEO hibákat",
+        "d) Csak JavaScript hibákat"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 440,
+      "q": "Miért nem elég az automata audit akadálymentességhez?",
+      "a": [
+        "a) Mert mindig hibás",
+        "b) Mert sok fókuszfolyam, screen reader viselkedés és használhatósági kérdés kézi tesztet igényel",
+        "c) Mert WCAG tiltja",
+        "d) Mert csak Safari alatt fut"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 441,
+      "q": "Miért hasznos a skip link?",
+      "a": [
+        "a) Mert átugorja a CSS betöltést",
+        "b) Mert gyors hozzáférést ad a fő tartalomhoz billentyűzetes felhasználóknak",
+        "c) Mert javítja a képtömörítést",
+        "d) Mert helyettesíti a navot"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 442,
+      "q": "Mit jelent a helyes heading hierarchy?",
+      "a": [
+        "a) Tetszőleges heading használat",
+        "b) Logikus címsor-szintek a dokumentum szerkezetéhez igazítva",
+        "c) Csak h1 elemek használata",
+        "d) Csak vizuális kérdés, szemantikája nincs"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 443,
+      "q": "Miért kell egy custom interaktív komponensnek billentyűzettel is működnie?",
+      "a": [
+        "a) Mert a CSS ezt megköveteli",
+        "b) Mert az elérhetőség része, hogy ne csak egérrel legyen használható",
+        "c) Mert csak desktopon fontos",
+        "d) Mert különben nem tölthető be a JS"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 444,
+      "q": "Mit jelent a tabindex=\"-1\" tipikusan?",
+      "a": [
+        "a) Az elem teljesen fókuszálhatatlan",
+        "b) Nem kerül a normál Tab sorrendbe, de programozottan fókuszálható lehet",
+        "c) Első lesz a Tab sorrendben",
+        "d) Csak inputokra érvényes"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 445,
+      "q": "Miért gond a túl sok különböző typography szabály egy UI-ban?",
+      "a": [
+        "a) Mert a böngésző nem rendereli",
+        "b) Mert vizuális zajt okozhat és gyengítheti a hierarchiát",
+        "c) Mert csak mobilon látszik",
+        "d) Mert gyorsítja ugyan a renderelést, de tiltott"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 446,
+      "q": "Mi a design token rendszer egyik előnye?",
+      "a": [
+        "a) Minden komponensben hardcode-olt értékek",
+        "b) Konzisztens, központilag kezelhető design értékek használata",
+        "c) Kevesebb HTML tag",
+        "d) Kevesebb auth provider"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 447,
+      "q": "Mi a komponens-alapú UI egyik fő előnye?",
+      "a": [
+        "a) Minden egy fájlba kerül",
+        "b) Újrafelhasználhatóság és jobb karbantarthatóság",
+        "c) Nem kell állapotkezelés",
+        "d) Nem kell CSS"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 448,
+      "q": "Mit jelent a single responsibility principle komponenseknél?",
+      "a": [
+        "a) Egy komponensnek egy fő, jól körülhatárolt felelőssége legyen",
+        "b) Egy komponens kezelje az egész appot",
+        "c) Egy komponens nem fogadhat inputot",
+        "d) Egy komponens nem tartalmazhat template-et"
+      ],
+      "correct": "a"
+    },
+    {
+      "index": 449,
+      "q": "Miért problémás egy túl hosszú, monolitikus komponens vagy függvény?",
+      "a": [
+        "a) Mert a JavaScript motor nem futtatja",
+        "b) Mert nehezebb olvasni, tesztelni és karbantartani",
+        "c) Mert tiltja a lint",
+        "d) Mert csak server oldalon legális"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 450,
+      "q": "Mit jelent a YAGNI elv?",
+      "a": [
+        "a) Minden jövőbeli funkciót előre fejlesztünk",
+        "b) Csak azt építjük meg, amire ténylegesen szükség van",
+        "c) Soha nem refaktorálunk",
+        "d) Mindig microservice-ben gondolkodunk"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 451,
+      "q": "Miért hasznos a feature flag?",
+      "a": [
+        "a) Mert kiváltja a verziókezelést",
+        "b) Mert kontrolláltan be- vagy kikapcsolható funkciókat tesz lehetővé",
+        "c) Mert megszünteti a hibákat",
+        "d) Mert csak backendre jó"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 452,
+      "q": "Mit jelent az optimistic UI update?",
+      "a": [
+        "a) Megvárjuk a szerver válaszát minden vizuális frissítés előtt",
+        "b) A UI előre megmutatja a várt sikeres állapotot, majd hiba esetén korrigálhat",
+        "c) Soha nem hívjuk a szervert",
+        "d) Csak offline appoknál létezik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 453,
+      "q": "Miért kell rollback optimistic update esetén?",
+      "a": [
+        "a) Mert a szerver válasza eltérhet, és a UI-t konzisztens állapotba kell visszahozni hibánál",
+        "b) Mert a CSS megköveteli",
+        "c) Mert a fetch csak így működik",
+        "d) Mert a rollback gyorsítja a hálózatot"
+      ],
+      "correct": "a"
+    },
+    {
+      "index": 454,
+      "q": "Miért hasznos a retry stratégia átmeneti hibáknál?",
+      "a": [
+        "a) Mert minden hibát elrejt",
+        "b) Mert bizonyos ideiglenes hálózati vagy szerverhibák újrapróbálkozással megoldhatók",
+        "c) Mert csökkenti a szerverterhelést nullára",
+        "d) Mert csak POST-nál jó"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 455,
+      "q": "Miért érdemes exponential backoffot használni retry esetén?",
+      "a": [
+        "a) Mert gyorsabban spammeli a szervert",
+        "b) Mert fokozatosan növekvő várakozást ad, kímélve a rendszert",
+        "c) Mert mindig 0 ms várakozást ad",
+        "d) Mert csak WebSocketnél használható"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 456,
+      "q": "Miért fontos a jól tervezett error state?",
+      "a": [
+        "a) Mert több piros színt tesz lehetővé",
+        "b) Mert érthető visszajelzést és továbblépési lehetőséget ad a felhasználónak",
+        "c) Mert helyettesíti a logolást",
+        "d) Mert csak dizájnelem"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 457,
+      "q": "Miért érdemes külön empty state-et tervezni?",
+      "a": [
+        "a) Mert így hosszabb lesz az oldal",
+        "b) Mert útmutatást adhat, mit tegyen a felhasználó üres állapotban",
+        "c) Mert kötelező minden frameworkben",
+        "d) Mert csökkenti a HTTP kérést"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 458,
+      "q": "Mit jelent a progressive enhancement?",
+      "a": [
+        "a) Először csak a legújabb featureökre építünk",
+        "b) Stabil alap funkcionalitásra építünk további modernebb rétegeket",
+        "c) Csak mobilra fejlesztünk",
+        "d) Nem használunk JavaScriptet"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 459,
+      "q": "Mit jelent a graceful degradation?",
+      "a": [
+        "a) Régebbi környezetben is elfogadható működés, még ha nem teljes értékű is",
+        "b) Az alkalmazás fokozatos összeomlása",
+        "c) CSS törlése futás közben",
+        "d) Ugyanaz mint SSR"
+      ],
+      "correct": "a"
+    },
+    {
+      "index": 460,
+      "q": "Mi a polyfill szerepe?",
+      "a": [
+        "a) Régebbi környezetben hiányzó modern API-k pótlása",
+        "b) CSS reset biztosítása",
+        "c) Angular route generálása",
+        "d) Cookie titkosítása"
+      ],
+      "correct": "a"
+    },
+    {
+      "index": 461,
+      "q": "Miért problémás túlzottan userAgent sniffingre építeni?",
+      "a": [
+        "a) Mert a user agent megbízhatatlan lehet, jobb a feature detection",
+        "b) Mert a userAgent nem elérhető JS-ből",
+        "c) Mert csak szerveren van userAgent",
+        "d) Mert gyorsítja a hibákat"
+      ],
+      "correct": "a"
+    },
+    {
+      "index": 462,
+      "q": "Mi a feature detection lényege?",
+      "a": [
+        "a) Böngészőnév alapján döntünk",
+        "b) A ténylegesen támogatott képességet vizsgáljuk",
+        "c) Csak CSS fájlméretet mérünk",
+        "d) Csak analytics funkció"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 463,
+      "q": "Miért fontos a prefers-reduced-motion figyelembevétele?",
+      "a": [
+        "a) Mert minden animációt gyorsít",
+        "b) Mert egyes felhasználók érzékenyek lehetnek a mozgásra",
+        "c) Mert csak mobilon kötelező",
+        "d) Mert kiváltja a dark mode-ot"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 464,
+      "q": "Mit segít a prefers-color-scheme média lekérdezés?",
+      "a": [
+        "a) Az OS vagy böngésző világos/sötét témájához igazodást",
+        "b) Az API kiválasztását",
+        "c) A képkompressziót",
+        "d) A route guard működését"
+      ],
+      "correct": "a"
+    },
+    {
+      "index": 465,
+      "q": "Miért fontos a konzisztens spacing rendszer?",
+      "a": [
+        "a) Mert több random értéket enged",
+        "b) Mert egységes vizuális ritmust és könnyebb karbantarthatóságot ad",
+        "c) Mert megszünteti a CSS-t",
+        "d) Mert helyettesíti a rácsrendszert"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 466,
+      "q": "Mit jelent a separation of concerns frontendben?",
+      "a": [
+        "a) Minden logika egy komponensben él",
+        "b) A különböző felelősségek elkülönített kezelése",
+        "c) Csak CSS külön fájlba szervezését",
+        "d) Csak backend architektúrát"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 467,
+      "q": "Miért hasznosak az újrafelhasználható utility függvények?",
+      "a": [
+        "a) Mert növelik a duplikációt",
+        "b) Mert csökkentik a kódismétlést és javíthatják a tesztelhetőséget",
+        "c) Mert helyettesítik a komponenseket",
+        "d) Mert csak build time-ban futnak"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 468,
+      "q": "Miért hasznos typed contract vagy interface API válaszokhoz?",
+      "a": [
+        "a) Mert gyorsabb internetet ad",
+        "b) Mert segít észrevenni a backend-frontend szerződés eltéréseit",
+        "c) Mert kiváltja a validációt minden esetben",
+        "d) Mert csak CSS-hez jó"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 469,
+      "q": "Miért fontos a defensive programming felhasználói inputnál?",
+      "a": [
+        "a) Mert a felhasználói input mindig hibátlan",
+        "b) Mert a bemenet lehet hibás, hiányos vagy rosszindulatú is",
+        "c) Mert a böngésző mindent javít",
+        "d) Mert csak backendre tartozik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 470,
+      "q": "Miért probléma, ha egy UI csak egérrel használható?",
+      "a": [
+        "a) Mert mobilon nincs egér, és hozzáférhetőségi gondot is okoz",
+        "b) Mert a GPU lassabb lesz",
+        "c) Mert a CSS tiltja",
+        "d) Mert a JavaScript nem fut le"
+      ],
+      "correct": "a"
+    },
+    {
+      "index": 471,
+      "q": "Miért fontos a megfelelő touch target mobilon?",
+      "a": [
+        "a) Mert elég 10x10 px kattintható területet adni",
+        "b) Mert az interaktív elemeknek könnyen eltalálhatónak kell lenniük",
+        "c) Mert csak ikonokra vonatkozik",
+        "d) Mert csak iOS-en számít"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 472,
+      "q": "Miért lehet hátrányos a túl sok nested DOM container?",
+      "a": [
+        "a) Mert a HTML nem támogat nestinget",
+        "b) Mert bonyolítja a karbantartást és növelheti a DOM költséget",
+        "c) Mert törli a CSS-t",
+        "d) Mert blokkolja a hálózatot"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 473,
+      "q": "Mit jelent a hydration SSR után?",
+      "a": [
+        "a) A CSS betöltését",
+        "b) A szerveren renderelt HTML interaktívvá tételét kliensoldali JS-sel",
+        "c) A cache törlését",
+        "d) A routing leállítását"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 474,
+      "q": "Miért lehet hibaforrás a window vagy document közvetlen használata SSR-ben?",
+      "a": [
+        "a) Mert szerveroldali környezetben ezek nem biztos, hogy léteznek",
+        "b) Mert túl gyorsak",
+        "c) Mert csak Firefoxban vannak",
+        "d) Mert Angular tiltja őket mindig"
+      ],
+      "correct": "a"
+    },
+    {
+      "index": 475,
+      "q": "Mit jelent a stale-while-revalidate stratégia?",
+      "a": [
+        "a) Mindig tiltott cache",
+        "b) Régi cache-elt adat azonnali kiszolgálása, miközben háttérben frissítés történik",
+        "c) A cache azonnali törlése minden kérésnél",
+        "d) Csak videókra érvényes"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 476,
+      "q": "Miért kell explicit loading state adathívásoknál?",
+      "a": [
+        "a) Mert csak így parse-olható a JSON",
+        "b) Mert a felhasználó visszajelzést kap a folyamatban lévő műveletről",
+        "c) Mert a CSS betöltéshez kell",
+        "d) Mert különben nincs retry"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 477,
+      "q": "Miért érdemes külön success, error és empty állapotot kezelni?",
+      "a": [
+        "a) Mert ezek eltérő valós helyzetek, és más UX választ igényelnek",
+        "b) Mert a framework ezt kötelezővé teszi",
+        "c) Mert csökkenti a bundle size-t",
+        "d) Mert csak dashboardnál fontos"
+      ],
+      "correct": "a"
+    },
+    {
+      "index": 478,
+      "q": "Mi a source map haszna?",
+      "a": [
+        "a) Gyorsítja a production runtime-ot",
+        "b) Segít a bundle-olt vagy transpilált kód visszakötésében az eredeti forrásokra debugoláskor",
+        "c) Titkosítja a JavaScriptet",
+        "d) Lecseréli a bundlert"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 479,
+      "q": "Miért hasznos a linting?",
+      "a": [
+        "a) Mert képeket generál",
+        "b) Mert segít gyakori hibák és következetlenségek korai felismerésében",
+        "c) Mert kiváltja a teszteket",
+        "d) Mert megszünteti a fordítási hibákat"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 480,
+      "q": "Miért hasznos például a Prettier csapatban?",
+      "a": [
+        "a) Mert mindenki más formázást használhat",
+        "b) Mert csökkenti a formázási vitákat és egységesíti a kódot",
+        "c) Mert kiváltja a TypeScriptet",
+        "d) Mert növeli az FPS-t"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 481,
+      "q": "Miért fontos a production logging és monitoring frontendnél?",
+      "a": [
+        "a) Mert nélküle gyorsabb a kód",
+        "b) Mert segít valós hibák és teljesítményproblémák feltárásában",
+        "c) Mert csak backend oldalon releváns",
+        "d) Mert a console.log elegendő mindig"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 482,
+      "q": "Miért nem elég csak a happy pathra fejleszteni?",
+      "a": [
+        "a) Mert valós környezetben hiba, üres állapot és edge case is előfordul",
+        "b) Mert a happy path tiltott",
+        "c) Mert a böngésző javít mindent",
+        "d) Mert edge case csak backendnél van"
+      ],
+      "correct": "a"
+    },
+    {
+      "index": 483,
+      "q": "Mit jelent a fail fast szemlélet validációknál?",
+      "a": [
+        "a) A hibákat minél korábban észleljük és jelezzük",
+        "b) A hibákat minél később kezeljük",
+        "c) Soha nem validálunk",
+        "d) Csak build time-ban létezik"
+      ],
+      "correct": "a"
+    },
+    {
+      "index": 484,
+      "q": "Miért hasznos a memoization bizonyos számításoknál?",
+      "a": [
+        "a) Mert minden függvényt aszinkronná tesz",
+        "b) Mert azonos bemenetre újrahasznosíthat korábbi eredményt",
+        "c) Mert csökkenti a DOM méretét",
+        "d) Mert helyettesíti a cache-t mindenhol"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 485,
+      "q": "Mi a különbség a memoization és a debounce között?",
+      "a": [
+        "a) Ugyanaz a kettő",
+        "b) A memoization eredményt cache-el, a debounce pedig eseményhívásokat ritkít",
+        "c) A debounce cache-el, a memoization időzít",
+        "d) Mindkettő csak RxJS-ben van"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 486,
+      "q": "Miért lehet gond a túlzott globális állapot?",
+      "a": [
+        "a) Mert kevesebb fájl kell hozzá",
+        "b) Mert bonyolíthatja az adatáramlást és növelheti a mellékhatások kockázatát",
+        "c) Mert gyorsítja a refaktort",
+        "d) Mert csak backendben létezik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 487,
+      "q": "Mit jelent a single source of truth állapotkezelésnél?",
+      "a": [
+        "a) Több helyen tároljuk ugyanazt az állapotot",
+        "b) Van egy központi, megbízható állapotforrás",
+        "c) Nincs állapotkezelés",
+        "d) Minden komponens saját adatbázissal rendelkezik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 488,
+      "q": "Miért előnyös a tiszta, mellékhatásmentes függvény bizonyos logikáknál?",
+      "a": [
+        "a) Mert nehezebb tesztelni",
+        "b) Mert kiszámíthatóbb és könnyebben tesztelhető",
+        "c) Mert mindig gyorsabb hardveren",
+        "d) Mert automatikusan cache-elődik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 489,
+      "q": "Mi a hosszú feladatok egyik fő problémája a main threaden?",
+      "a": [
+        "a) Mert gyorsítják az interakciót",
+        "b) Mert blokkolhatják a felhasználói interakciókat és ronthatják a responsiveness-t",
+        "c) Mert megszüntetik a paintet örökre",
+        "d) Mert csak Node.js-ben léteznek"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 490,
+      "q": "Miért lehet hasznos Web Worker bizonyos feladatokra?",
+      "a": [
+        "a) Mert DOM-ot tud közvetlenül módosítani",
+        "b) Mert bizonyos számításigényes munkát külön szálra szervezhet",
+        "c) Mert helyettesíti a fetch-et",
+        "d) Mert csak Angularban működik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 491,
+      "q": "Miért nem fér hozzá a Web Worker közvetlenül a DOM-hoz?",
+      "a": [
+        "a) Mert csak CSS-t ér el",
+        "b) Mert elkülönített szálon fut, a DOM-hozzáférés a fő szálhoz kötött",
+        "c) Mert túl lassú lenne az internet",
+        "d) Mert a browser security letilt minden JS-t workerben"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 492,
+      "q": "Mi az egyik előnye a Service Workernek PWA-kban?",
+      "a": [
+        "a) Közvetlen DOM manipuláció",
+        "b) Offline támogatás és kérés-interceptálás cache stratégiákkal",
+        "c) SQL futtatás",
+        "d) Angular komponens generálás"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 493,
+      "q": "Miért fontos körültekintően választani cache stratégiát Service Workerben?",
+      "a": [
+        "a) Mert minden adat mindig statikus",
+        "b) Mert a rossz stratégia elavult tartalmat vagy rossz UX-et okozhat",
+        "c) Mert a cache nem törölhető",
+        "d) Mert csak képekre hat"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 494,
+      "q": "Miért lehet problémás egy túl agresszív client-side cache?",
+      "a": [
+        "a) Mert mindig frissebb adatot ad",
+        "b) Mert elavult adatot mutathat és megnehezítheti a konzisztens frissítést",
+        "c) Mert letiltja a hálózatot",
+        "d) Mert csak developmentben létezik"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 495,
+      "q": "Miért fontos a jól tervezett invalidation stratégia cache használatakor?",
+      "a": [
+        "a) Mert a cache sosem változik",
+        "b) Mert biztosítani kell, hogy változás után a kliens friss adatot kapjon",
+        "c) Mert a cache csak backend oldali fogalom",
+        "d) Mert invalidation nélkül gyorsabb a fejlesztés és kész"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 496,
+      "q": "Mit jelent a canary release vagy fokozatos rollout egyik előnye frontend feature bevezetésnél?",
+      "a": [
+        "a) Mert minden felhasználóra egyszerre tolja ki a hibát",
+        "b) Mert korlátozott körön tesztelhető éles környezetben a változás",
+        "c) Mert nincs szükség monitorozásra",
+        "d) Mert kiváltja a teszteket"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 497,
+      "q": "Miért hasznos az A/B tesztelés bizonyos UI döntéseknél?",
+      "a": [
+        "a) Mert mindig bizonyítja, melyik verzió jobb",
+        "b) Mert mérhetővé teheti, hogyan hat két variáció a felhasználói viselkedésre",
+        "c) Mert helyettesíti a UX kutatást teljesen",
+        "d) Mert csak backend funkció"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 498,
+      "q": "Miért kell óvatosan értelmezni A/B teszt eredményeket?",
+      "a": [
+        "a) Mert a statisztikai zaj, mintanagyság és kontextus félrevezető lehet",
+        "b) Mert minden eredmény automatikusan hamis",
+        "c) Mert csak mobilon mérhető",
+        "d) Mert a böngészők blokkolják"
+      ],
+      "correct": "a"
+    },
+    {
+      "index": 499,
+      "q": "Miért hasznos a performance budget egy frontend projektben?",
+      "a": [
+        "a) Mert több erőforrást enged korlát nélkül",
+        "b) Mert előre rögzített teljesítménykorlátokkal segít kordában tartani a page weightet és regressziókat",
+        "c) Mert helyettesíti a monitoringot",
+        "d) Mert csak design rendszerhez kell"
+      ],
+      "correct": "b"
+    },
+    {
+      "index": 500,
+      "q": "Miért fontos a rendszeres profilozás és mérés, nem csak megérzésre optimalizálni?",
+      "a": [
+        "a) Mert a megérzés mindig pontos",
+        "b) Mert a valós szűk keresztmetszeteket mérés alapján lehet megbízhatóan azonosítani",
+        "c) Mert a profiler csak backendhez jó",
+        "d) Mert a Lighthouse minden helyzetet tökéletesen lefed"
+      ],
+      "correct": "b"
     }
-]
+  ]
